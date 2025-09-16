@@ -4,9 +4,33 @@ export default function Home() {
   return (
   <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 px-4">
       {/* Hero Section */}
-      <section className="text-center py-16">
-        <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Achieve Your Best Self</h1>
-        <p className="text-lg md:text-2xl text-gray-300 mb-8">
+      <section className="py-20 flex flex-col items-center justify-center gap-8 w-full max-w-5xl mx-auto">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 w-full">
+          {/* Mobile: logo/text above image; Desktop: image first */}
+          <div className="flex flex-col md:hidden items-center w-full">
+            <div className="flex items-center gap-4 mb-2">
+              <img src="/jc-logo.svg" alt="JC Logo" className="w-14 h-14" />
+              <span className="text-3xl font-bold text-white">Coaching</span>
+            </div>
+            <img
+              src="/images/coaching-image-1.jpg"
+              alt="Coach portrait"
+              className="w-32 h-32 rounded-full object-cover border-4 border-blue-700 shadow-lg"
+            />
+          </div>
+          <div className="hidden md:flex flex-row items-center gap-6 md:gap-12 w-full justify-center">
+            <img
+              src="/images/coaching-image-1.jpg"
+              alt="Coach portrait"
+              className="w-48 h-48 rounded-full object-cover border-4 border-blue-700 shadow-lg"
+            />
+            <div className="flex items-center gap-6">
+              <img src="/jc-logo.svg" alt="JC Logo" className="w-20 h-20" />
+              <span className="text-5xl font-bold text-white">Coaching</span>
+            </div>
+          </div>
+        </div>
+        <p className="text-lg md:text-2xl text-gray-300 mb-8 mt-2 text-center">
           1-to-1 Online Coaching for Personal Training & Diet Plans
         </p>
         <a
