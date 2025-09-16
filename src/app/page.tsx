@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-  <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 px-4">
+    <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 px-4">
       {/* Hero Section */}
       <section className="py-20 flex flex-col items-center justify-center gap-8 w-full max-w-5xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 w-full">
@@ -35,12 +36,20 @@ export default function Home() {
         </p>
         <a
           href="#contact"
-          className="inline-block bg-blue-700 text-white px-8 py-3 rounded-full text-lg font-semibold shadow hover:bg-blue-900 transition"
+          className="inline-block bg-blue-700 text-white px-8 py-3 rounded-full text-lg font-semibold shadow hover:bg-blue-900 transition border-2 border-blue-700 hover:border-blue-400"
         >
           Book Your Free Consultation
         </a>
       </section>
 
+      <section>
+        <Link
+          href="/about"
+          className="inline-block bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white px-8 py-3 rounded-full text-lg font-semibold shadow transition duration-300 hover:bg-gradient-to-tl hover:from-gray-800 hover:via-gray-900 hover:to-black border-2 border-blue-700 hover:border-blue-400"
+        >
+          Learn more about me
+        </Link>
+      </section>
       {/* Services Section */}
       <section className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8 py-12">
         <div className="bg-gray-800 rounded-xl shadow p-8 flex flex-col items-center border border-gray-700">
