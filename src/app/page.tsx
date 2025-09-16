@@ -15,7 +15,7 @@ export default function Home() {
             <img
               src="/images/coaching-image-1.jpg"
               alt="Coach portrait"
-              className="w-32 h-32 rounded-full object-cover border-4 border-blue-700 shadow-lg"
+              className="w-44 h-44 rounded-full object-cover border-4 border-blue-700 shadow-lg"
             />
           </div>
           <div className="hidden md:flex flex-row items-center gap-6 md:gap-12 w-full justify-center">
