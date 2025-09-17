@@ -8,7 +8,7 @@ export default function Home() {
     <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 px-4">
       <Navbar /> 
       {/* Hero Section */}
-      <section className="py-20 flex flex-col items-center justify-center gap-8 w-full max-w-5xl mx-auto">
+      <section className="py-10 flex flex-col items-center justify-center gap-8 w-full max-w-5xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 w-full">
           {/* Mobile: logo/text above image; Desktop: image first */}
           <div className="flex flex-col md:hidden items-center w-full">

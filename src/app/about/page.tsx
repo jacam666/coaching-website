@@ -54,25 +54,28 @@ export default function About() {
                                     <li>Competitor in powerlifting competitions</li>
                                     <li>ABPU M2 110KG bench press British record holder</li>
                                 </ul>
+
                             </div>
                         </div>
                     </div>
                     <section className="mt-10">
-                        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                            <Image
-                                src="/images/coaching-image-4.jpg"
-                                alt="Stage Image"
-                                width={600}
-                                height={400}
-                                className="w-full h-auto rounded-lg object-cover border-2 border-blue-700 shadow-lg"
-                            />
-                            <Image
-                                src="/images/coaching-image-5.jpg"
-                                alt="Bench press competition"
-                                width={600}
-                                height={400}
-                                className="w-full h-auto rounded-lg object-cover border-2 border-blue-700 shadow-lg"
-                            />
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                            <div className="grid grid-cols-1 gap-6">
+                                <Image
+                                    src="/images/coaching-image-4.jpg"
+                                    alt="Stage Image"
+                                    width={600}
+                                    height={400}
+                                    className="w-full h-auto rounded-lg object-cover border-2 border-blue-700 shadow-lg"
+                                />
+                                <Image
+                                    src="/images/coaching-image-5.jpg"
+                                    alt="Bench press competition"
+                                    width={600}
+                                    height={400}
+                                    className="w-full h-auto rounded-lg object-cover border-2 border-blue-700 shadow-lg"
+                                />
+                            </div>
                             <Image
                                 src="/images/coaching-image-6.jpg"
                                 alt="Coach in gym"
