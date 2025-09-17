@@ -17,10 +17,10 @@ export default function Navbar() {
                 <div className="max-w-7xl mx-auto  sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">
-                            <a href="/" className="flex items-center">
+                            <Link href="/" className="flex items-center">
                                 <img src="/jc-logo.svg" alt="JC Logo" className="h-10 w-10 mr-2" />
                                 <span className="text-white font-bold text-xl">Coaching</span>
-                            </a>
+                            </Link>
                         </div>
                         <div className="md:hidden">
               <button 
@@ -43,7 +43,6 @@ export default function Navbar() {
             </div>
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-4">
-                                <a href="/" className="text-gray-300 hover:text-white">Home</a>
                                 <Link href="/" className="text-gray-300 hover:text-white">Home</Link>
                                 <Link href="/about" className="text-gray-300 hover:text-white">About</Link>
                                 <Link href="#services" className="text-gray-300 hover:text-white">Services</Link>
