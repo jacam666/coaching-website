@@ -12,8 +12,6 @@ export default function About() {
             <div className="px-4">
                 <Navbar />
             </div>
-            
-
             <section className="flex-1 py-10">
                 <Container>
                     {/* <div>

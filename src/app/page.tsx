@@ -12,21 +12,21 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 w-full">
           {/* Mobile: logo/text above image; Desktop: image first */}
           <div className="flex flex-col md:hidden items-center w-full">
-            {/* <div className="flex items-center gap-4 mb-2">
-              <img src="/jc-logo.svg" alt="JC Logo" className="w-14 h-14" />
-              <span className="text-3xl font-bold text-white">Coaching</span>
-            </div> */}
-            <img
+            <Image
               src="/images/coaching-image-1.jpg"
+              width={80}
+              height={80}
               alt="Coach portrait"
               className="w-44 h-44 rounded-full object-cover border-4 border-blue-700 shadow-lg"
             />
           </div>
           <div className="hidden md:flex flex-row items-center gap-6 md:gap-12 w-full justify-center">
-            <img
+             <Image
               src="/images/coaching-image-1.jpg"
+              width={80}
+              height={80}
               alt="Coach portrait"
-              className="w-48 h-48 rounded-full object-cover border-4 border-blue-700 shadow-lg"
+              className="w-44 h-44 rounded-full object-cover border-4 border-blue-700 shadow-lg"
             />
             <div className="flex items-center gap-6">
               <img src="/jc-logo.svg" alt="JC Logo" className="w-20 h-20" />

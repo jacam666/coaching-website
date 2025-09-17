@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Navbar() {
 
@@ -43,9 +44,10 @@ export default function Navbar() {
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-4">
                                 <a href="/" className="text-gray-300 hover:text-white">Home</a>
-                                <a href="/about" className="text-gray-300 hover:text-white">About</a>
-                                <a href="#services" className="text-gray-300 hover:text-white">Services</a>
-                                <a href="#contact" className="text-gray-300 hover:text-white">Contact</a>
+                                <Link href="/" className="text-gray-300 hover:text-white">Home</Link>
+                                <Link href="/about" className="text-gray-300 hover:text-white">About</Link>
+                                <Link href="#services" className="text-gray-300 hover:text-white">Services</Link>
+                                <Link href="#contact" className="text-gray-300 hover:text-white">Contact</Link>
                             </div>
                         </div>
                     </div>
