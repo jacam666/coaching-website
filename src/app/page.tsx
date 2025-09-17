@@ -1,19 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 px-4">
+      <Navbar /> 
       {/* Hero Section */}
       <section className="py-20 flex flex-col items-center justify-center gap-8 w-full max-w-5xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 w-full">
           {/* Mobile: logo/text above image; Desktop: image first */}
           <div className="flex flex-col md:hidden items-center w-full">
-            <div className="flex items-center gap-4 mb-2">
+            {/* <div className="flex items-center gap-4 mb-2">
               <img src="/jc-logo.svg" alt="JC Logo" className="w-14 h-14" />
               <span className="text-3xl font-bold text-white">Coaching</span>
-            </div>
+            </div> */}
             <img
               src="/images/coaching-image-1.jpg"
               alt="Coach portrait"
