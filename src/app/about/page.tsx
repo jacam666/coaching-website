@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "../components/Header";
 import Container from "../components/Container";
+import Footer from "../components/Footer";
 
 export default function About() {
     return (
@@ -51,21 +52,21 @@ export default function About() {
                         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                             <Image
                                 src="/images/coaching-image-4.jpg"
-                                alt="Coach working with client"
+                                alt="Stage Image"
                                 width={600}
                                 height={400}
                                 className="w-full h-auto rounded-lg object-cover border-2 border-blue-700 shadow-lg"
                             />
                             <Image
                                 src="/images/coaching-image-5.jpg"
-                                alt="Coach working with client"
+                                alt="Bench press competition"
                                 width={600}
                                 height={400}
                                 className="w-full h-auto rounded-lg object-cover border-2 border-blue-700 shadow-lg"
                             />
                             <Image
                                 src="/images/coaching-image-6.jpg"
-                                alt="Coach working with client"
+                                alt="Coach in gym"
                                 width={600}
                                 height={400}
                                 className="w-full h-auto rounded-lg object-cover border-2 border-blue-700 shadow-lg"
@@ -82,6 +83,7 @@ export default function About() {
                     </div>
                 </Container>
             </section>
+            <Footer />
         </main>
     );
 }
