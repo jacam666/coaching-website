@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className=" text-gray-400 py-6 mt-10 ">
+        <footer className=" text-gray-100 py-6 mt-10 ">
             <div className="w-full max-w-5xl mx-auto px-4 text-center">
                 <p>&copy; {new Date().getFullYear()} JC Coaching. All rights reserved.</p>
                 {/* <p className="mt-2">

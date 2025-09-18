@@ -35,11 +35,11 @@ export default function MealsPage() {
                                 <div className={`absolute inset-0 w-full h-full bg-white rounded-xl border border-blue-700 shadow p-4 ${flippedArr[idx] ? "opacity-0" : "opacity-100"}`} style={{ backfaceVisibility: "hidden" }}>
                                     <img src={meal.image.src} alt={meal.image.alt} className="w-full h-48 object-fill rounded-md mb-4" />
                                     <div className="text-center bg-gray-800 p-3 rounded-md overflow-auto">
-                                        <h3 className="text-lg font-semibold">{meal.title}</h3>
-                                        <p className="text-sm text-gray-400">Calories: {meal.kcal} kcal</p>
-                                        <p className="text-sm text-gray-400">Protein: {meal.protein} g</p>
-                                        <p className="text-sm text-gray-400">Carbs: {meal.carbs} g</p>
-                                        <p className="text-sm text-gray-400">Fat: {meal.fat} g</p>
+                                        <h3 className="text-xl font-semibold">{meal.title}</h3>
+                                        <p className="text-sm text-gray-50">Calories: {meal.kcal} kcal</p>
+                                        <p className="text-sm text-gray-50">Protein: {meal.protein} g</p>
+                                        <p className="text-sm text-gray-50">Carbs: {meal.carbs} g</p>
+                                        <p className="text-sm text-gray-50">Fat: {meal.fat} g</p>
                                     </div>
                                     <button
                                         className="absolute bottom-4 right-4 bg-blue-700 text-white rounded-full p-2 m-4 shadow hover:bg-blue-900 transition"

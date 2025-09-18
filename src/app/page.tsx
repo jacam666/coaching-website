@@ -74,7 +74,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <p className="text-lg md:text-2xl text-gray-300 mb-8 mt-2 text-center">
+        <p className="text-lg md:text-2xl text-gray-100 mb-8 mt-2 text-center">
           1-to-1 Online Coaching for Personal Training & Diet Plans
         </p>
         <a
@@ -98,14 +98,14 @@ export default function Home() {
         <div className="bg-gray-800 rounded-xl shadow p-8 flex flex-col items-center border border-gray-700">
           <img src="/file.svg" alt="Personal Training" className="w-16 h-16 mb-4" />
           <h2 className="text-2xl font-bold text-blue-400 mb-2">Online Coaching</h2>
-          <p className="text-gray-300 text-center">
+          <p className="text-gray-100 text-center">
             Customized workout plans, progress tracking, and expert guidance to help you reach your fitness goals from anywhere.
           </p>
         </div>
         <div className="bg-gray-800 rounded-xl shadow p-8 flex flex-col items-center border border-gray-700">
           <img src="/window.svg" alt="Diet Plans" className="w-16 h-16 mb-4" />
           <h2 className="text-2xl font-bold text-blue-400 mb-2">Diet Plans</h2>
-          <p className="text-gray-300 text-center">
+          <p className="text-gray-100 text-center">
             Personalized nutrition strategies tailored to your lifestyle, preferences, and goals for sustainable results.
           </p>
         </div>
@@ -114,7 +114,7 @@ export default function Home() {
       {/* About Section */}
       <section className="max-w-2xl text-center py-8">
         <h3 className="text-xl font-semibold text-blue-400 mb-2">Why Choose Us?</h3>
-        <p className="text-gray-300">
+        <p className="text-gray-100">
           With years of experience in fitness and nutrition coaching, I provide dedicated support and proven strategies to help you transform your health and confidence. Start your journey today!
         </p>
       </section>

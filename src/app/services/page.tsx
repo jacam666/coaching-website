@@ -14,7 +14,7 @@ export default function Services() {
                 <div className="w-full">
                     <div className="bg-gray-900 rounded-xl border border-blue-700 p-6 shadow mb-4">
                         <h1 id="services-heading" className="text-3xl font-semibold text-blue-400 mb-3 text-center">Online Coaching</h1>
-                        <div className="text-gray-300 text-lg text-center space-y-4">
+                        <div className="text-gray-100 text-lg text-center space-y-4">
                             <p>
                                 Personalised training and nutrition built around your life—no gym schedules to juggle. After a quick video consultation, I’ll set clear goals and create a phased programme for home or gym, plus simple calorie/macros targets you can actually stick to.
                             </p>
@@ -37,7 +37,7 @@ export default function Services() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
                         <div className="rounded-xl border border-blue-700 bg-gray-900/80 p-8 shadow flex flex-col items-center">
                             <h3 className="text-2xl font-semibold text-blue-400 mb-3">1-to-1 Personal Training</h3>
-                            <ul className="space-y-2 text-gray-200 list-disc list-inside text-left">
+                            <ul className="space-y-2 text-gray-100 list-disc list-inside text-left">
                                 <li>Train together in the gym with hands-on guidance</li>
                                 <li>Immediate form correction & real-time motivation</li>
                                 <li>Spotting for heavy lifts & safety support</li>
@@ -46,7 +46,7 @@ export default function Services() {
                         </div>
                         <div className="rounded-xl border border-blue-700 bg-gray-900/80 p-8 shadow flex flex-col items-center">
                             <h3 className="text-2xl font-semibold text-blue-400 mb-3">Online Coaching</h3>
-                            <ul className="space-y-2 text-gray-200 list-disc list-inside text-left">
+                            <ul className="space-y-2 text-gray-100 list-disc list-inside text-left">
                                 <li>Personalised training & nutrition plan delivered online</li>
                                 <li>Weekly check-ins and progress tracking</li>
                                 <li>Train anywhere — gym, home, or while travelling</li>
@@ -58,7 +58,7 @@ export default function Services() {
                         <h3 id="benefits-heading" className="text-2xl font-semibold text-blue-400 mb-4 text-center">
                             Benefits of Online Coaching
                         </h3>
-                        <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-200">
+                        <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-100">
                             <li className="flex items-start gap-2">
                                 <span className="mt-1 h-2 w-2 rounded-full bg-blue-500"></span>
                                 Train on your schedule — no fixed session times

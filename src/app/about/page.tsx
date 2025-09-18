@@ -39,7 +39,7 @@ export default function About() {
 
                         {/* Intro & achievements */}
                         <div>
-                            <p className="text-lg text-gray-300 mb-6">
+                            <p className="text-lg text-gray-100 mb-6">
                                 I am Jamie Cameron a passionate coach dedicated to helping you achieve your fitness goals.
                             </p>
 
@@ -47,7 +47,7 @@ export default function About() {
                                 <h2 className="text-2xl font-bold text-blue-400 mb-2">
                                     My Experience & Achievements
                                 </h2>
-                                <ul className="text-gray-200 text-left list-disc list-inside space-y-2">
+                                <ul className="text-gray-100 text-left list-disc list-inside space-y-2">
                                     <li>30 years of experience in fitness and bodybuilding</li>
                                     <li>Multiple bodybuilding competition wins</li>
                                     <li>Expert in dieting, body transformation, and muscle mass gain</li>
