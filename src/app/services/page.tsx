@@ -9,10 +9,19 @@ export default function Services() {
             <div className="px-4">
                 <Navbar />
             </div>
+            <section className="py-10 flex flex-col items-center justify-center gap-8 w-full max-w-5xl mx-auto">
+                <div className="w-full px-4">
+                    <div className="bg-gray-900 rounded-xl border border-blue-700 p-6 shadow mb-4">
+                        <p className="text-gray-300 text-lg text-center">
+                            Personalised training and nutrition built around your life—no gym schedules to juggle. After a quick video consultation, I’ll set clear goals and create a phased programme for home or gym, plus simple calorie/macros targets you can actually stick to. You’ll get weekly check-ins, video form reviews, habit coaching, and smart adjustments based on your progress so you always know what to do next. With 30+ years in fitness (and an ABPU M4 110 kg bench-press British record), my approach is practical, safe and results-driven—no fads, just consistent progress. Ongoing support between check-ins (WhatsApp/email) keeps you accountable wherever you train. Start with a free consultation to see how online coaching fits your routine.
+                        </p>
+                    </div>
+                </div>
+            </section>
             <section className="flex-1 py-10">
                 <div className="w-full max-w-5xl mx-auto px-4">
                     <h2 id="services-heading" className="text-3xl md:text-4xl font-bold text-center mb-10 text-white">
-                        Online Coaching vs 1-to-1 Personal Training
+                        So what is the difference between Online Coaching and 1-to-1 Personal Training?
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
                         <div className="rounded-xl border border-blue-700 bg-gray-900/80 p-8 shadow flex flex-col items-center">
