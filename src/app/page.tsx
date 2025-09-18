@@ -97,7 +97,7 @@ export default function Home() {
       <section className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8 py-12">
         <div className="bg-gray-800 rounded-xl shadow p-8 flex flex-col items-center border border-gray-700">
           <img src="/file.svg" alt="Personal Training" className="w-16 h-16 mb-4" />
-          <h2 className="text-2xl font-bold text-blue-400 mb-2">Personal Training</h2>
+          <h2 className="text-2xl font-bold text-blue-400 mb-2">Online Coaching</h2>
           <p className="text-gray-300 text-center">
             Customized workout plans, progress tracking, and expert guidance to help you reach your fitness goals from anywhere.
           </p>
