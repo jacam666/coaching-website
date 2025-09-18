@@ -1,12 +1,52 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import { useState } from "react";
+import { useRef } from "react";
 
 export default function Home() {
+  const [result, setResult] = useState("");
+  const [isSending, setIsSending] = useState(false);
+  const [sent, setSent] = useState(false);
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
+
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setIsSending(true);
+    setResult("Sending....");
+    const form = e.target as HTMLFormElement;
+    const formData = new FormData(form);
+
+    formData.append("access_key", "2dcede50-807f-4105-b537-2481a15ebeec");
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+    const data = await res.json();
+
+    setIsSending(false);
+    if (data.success) {
+      setResult("Message sent successfully!");
+      setSent(true);
+      form.reset();
+      if (timerRef.current) clearTimeout(timerRef.current);
+      timerRef.current = setTimeout(() => {
+        setSent(false);
+        setResult("");
+      }, 2000);
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
+
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 px-4">
-      <Navbar /> 
+      <Navbar />
       {/* Hero Section */}
       <section className="py-10 flex flex-col items-center justify-center gap-8 w-full max-w-5xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 w-full">
@@ -21,7 +61,7 @@ export default function Home() {
             />
           </div>
           <div className="hidden md:flex flex-row items-center gap-6 md:gap-12 w-full justify-center">
-             <Image
+            <Image
               src="/images/coaching-image-1.jpg"
               width={80}
               height={80}
@@ -82,12 +122,16 @@ export default function Home() {
       {/* Contact Section */}
       <section id="contact" className="w-full max-w-xl py-12">
         <h3 className="text-2xl font-bold text-blue-400 mb-4 text-center">Get in Touch</h3>
-        <form className="flex flex-col gap-4 bg-gray-800 rounded-xl shadow p-8 border border-gray-700">
-          <input type="text" placeholder="Your Name" className="border border-gray-600 bg-gray-900 text-white rounded px-4 py-2" required />
-          <input type="email" placeholder="Your Email" className="border border-gray-600 bg-gray-900 text-white rounded px-4 py-2" required />
-          <textarea placeholder="How can I help you?" className="border border-gray-600 bg-gray-900 text-white rounded px-4 py-2" rows={4} required />
-          <button type="submit" className="bg-blue-700 text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-900 transition">
-            Send Message
+        <form onSubmit={onSubmit} className="flex flex-col gap-4 bg-gray-800 rounded-xl shadow p-8 border border-gray-700">
+          <input type="text" name="name" placeholder="Your Name" className="border border-gray-600 bg-gray-900 text-white rounded px-4 py-2" required />
+          <input type="email" name="email" placeholder="Your Email" className="border border-gray-600 bg-gray-900 text-white rounded px-4 py-2" required />
+          <textarea name="message" placeholder="How can I help you?" className="border border-gray-600 bg-gray-900 text-white rounded px-4 py-2" rows={4} required />
+          <button
+            type="submit"
+            className={`px-6 py-2 rounded-full font-semibold transition shadow text-lg ${sent ? "bg-green-600 text-white" : "bg-blue-700 text-white hover:bg-blue-900 border-2 border-blue-700 hover:border-blue-400"}`}
+            disabled={isSending || sent}
+          >
+            {isSending ? "Sending..." : sent ? "Message sent" : "Send Message"}
           </button>
         </form>
       </section>
