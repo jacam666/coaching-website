@@ -124,7 +124,7 @@ export const meals: Meal[] = [
   {
     id: 13,
     slug: "healthy-chicken-salad",
-    title: " Chicken Salad (Asian-style)",
+    title: " Chicken Salad",
     image: { src: "/images/meal-images/meal-13.webp", alt: "Asian chicken salad" },
     kcal: 109, protein: 19, carbs: 6, fat: 1,
     ingredients: ["Chicken breast", "Fish sauce", "Lime", "Caster sugar", "Mixed leaves", "Coriander", "Red onion", "Chilli", "Cucumber"],

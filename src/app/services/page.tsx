@@ -12,7 +12,7 @@ export default function Services() {
             {/* section for Online Coaching description */}
             <section className="py-10 flex flex-col items-center justify-center gap-8 w-full px-4 max-w-5xl mx-auto">
                 <div className="w-full">
-                    <div className="bg-gray-900 rounded-xl border border-blue-700 p-6 shadow mb-4">
+                    <div className="bg-gray-900 rounded-xl  p-6 shadow mb-4">
                         <h1 id="services-heading" className="text-3xl font-semibold text-blue-400 mb-3 text-center">Online Coaching</h1>
                         <div className="text-gray-100 text-lg text-center space-y-4">
                             <p>
@@ -35,7 +35,7 @@ export default function Services() {
                 <div className="w-full max-w-5xl mx-auto px-4">
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
-                        <div className="rounded-xl border border-blue-700 bg-gray-900/80 p-8 shadow flex flex-col items-center">
+                        <div className="rounded-xl bg-gray-900/80 p-8 shadow flex flex-col items-center">
                             <h3 className="text-2xl font-semibold text-blue-400 mb-3">1-to-1 Personal Training</h3>
                             <ul className="space-y-2 text-gray-100 list-disc list-inside text-left">
                                 <li>Train together in the gym with hands-on guidance</li>
@@ -44,7 +44,7 @@ export default function Services() {
                                 <li>Great if you want direct, in-person accountability</li>
                             </ul>
                         </div>
-                        <div className="rounded-xl border border-blue-700 bg-gray-900/80 p-8 shadow flex flex-col items-center">
+                        <div className="rounded-xl bg-gray-900/80 p-8 shadow flex flex-col items-center">
                             <h3 className="text-2xl font-semibold text-blue-400 mb-3">Online Coaching</h3>
                             <ul className="space-y-2 text-gray-100 list-disc list-inside text-left">
                                 <li>Personalised training & nutrition plan delivered online</li>

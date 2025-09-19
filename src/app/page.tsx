@@ -57,7 +57,7 @@ export default function Home() {
               width={80}
               height={80}
               alt="Coach portrait"
-              className="w-44 h-44 rounded-full object-cover border-4 border-blue-700 shadow-lg"
+              className="w-44 h-44 rounded-full object-cover  shadow-lg"
             />
           </div>
           <div className="hidden md:flex flex-row items-center gap-6 md:gap-12 w-full justify-center">
@@ -95,7 +95,7 @@ export default function Home() {
       </section>
       {/* Services Section */}
       <section className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8 py-12">
-        <div className="bg-gray-800 rounded-xl shadow p-8 flex flex-col items-center border border-gray-700">
+        <div className="bg-gray-800 rounded-xl  shadow p-8 flex flex-col items-center border border-gray-700">
           <img src="/file.svg" alt="Personal Training" className="w-16 h-16 mb-4" />
           <h2 className="text-2xl font-bold text-blue-400 mb-2">Online Coaching</h2>
           <p className="text-gray-100 text-center">

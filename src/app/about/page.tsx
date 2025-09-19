@@ -23,27 +23,24 @@ export default function About() {
                             <span className="text-3xl font-bold text-white">Coaching</span>
                         </div> */}
                     </div>
-                    <div className="flex flex-col lg:flex-row items-center justify-center gap-8">
+                    <p className="text-xl md:text-2xl text-center text-gray-100 mb-6">
+                                I am Jamie Cameron a passionate coach dedicated to helping you achieve your fitness goals.
+                            </p>
+                    <div className="flex flex-col lg:flex-row w-full items-center justify-center gap-12">
                         {/* Profile image */}
-                        <div>
+                        {/* <div>
                             <Image
                                 src="/images/coaching-image-2.jpg"
                                 alt="Coach portrait"
                                 width={200}
                                 height={200}
                                 priority
-                                className="w-48 h-48 rounded-full object-cover border-4 border-blue-700 shadow-lg"
+                                className="w-36 h-60 rounded-xl object-contain border border-blue-700 shadow-lg"
                             />
-                        </div>
-
-
+                        </div> */}
                         {/* Intro & achievements */}
                         <div>
-                            <p className="text-lg text-gray-100 mb-6">
-                                I am Jamie Cameron a passionate coach dedicated to helping you achieve your fitness goals.
-                            </p>
-
-                            <div className="bg-gray-900 rounded-xl border border-blue-700 p-6 shadow mb-4">
+                            <div className=" rounded-xl  p-6 shadow ">
                                 <h2 className="text-2xl font-bold text-blue-400 mb-2">
                                     My Experience & Achievements
                                 </h2>
@@ -54,7 +51,6 @@ export default function About() {
                                     <li>Competitor in powerlifting competitions</li>
                                     <li>ABPU M2 110KG bench press British record holder</li>
                                 </ul>
-
                             </div>
                         </div>
                     </div>
@@ -66,14 +62,14 @@ export default function About() {
                                     alt="Stage Image"
                                     width={600}
                                     height={400}
-                                    className="w-full h-auto rounded-lg object-cover border-2 border-blue-700 shadow-lg"
+                                    className="w-full h-auto rounded-lg object-cover shadow-lg"
                                 />
                                 <Image
                                     src="/images/coaching-image-5.jpg"
                                     alt="Bench press competition"
                                     width={600}
                                     height={400}
-                                    className="w-full h-auto rounded-lg object-cover border-2 border-blue-700 shadow-lg"
+                                    className="w-full h-auto rounded-lg object-cover shadow-lg"
                                 />
                             </div>
                             <Image
@@ -81,7 +77,7 @@ export default function About() {
                                 alt="Coach in gym"
                                 width={600}
                                 height={400}
-                                className="w-full h-auto rounded-lg object-cover border-2 border-blue-700 shadow-lg"
+                                className="w-full h-auto rounded-lg object-cover shadow-lg"
                             />
                         </div>
                     </section>
