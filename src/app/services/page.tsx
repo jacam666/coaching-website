@@ -12,9 +12,9 @@ export default function Services() {
             {/* section for Online Coaching description */}
             <section className="py-10 flex flex-col items-center justify-center gap-8 w-full px-4 max-w-5xl mx-auto">
                 <div className="w-full">
-                    <div className="bg-gray-900 rounded-xl  p-6 shadow mb-4">
-                        <h1 id="services-heading" className="text-3xl font-semibold text-blue-400 mb-3 text-center">Online Coaching</h1>
-                        <div className="text-gray-100 text-lg text-center space-y-4">
+                    <div className="bg-blue-200 rounded-xl  p-6 shadow mb-4">
+                        <h1 id="services-heading" className="text-3xl font-semibold text-blue-600 mb-3 text-center">Online Coaching</h1>
+                        <div className="text-gray-900 text-lg text-center space-y-4">
                             <p>
                                 Personalised training and nutrition built around your life—no gym schedules to juggle. After a quick video consultation, I’ll set clear goals and create a phased programme for home or gym, plus simple calorie/macros targets you can actually stick to.
                             </p>
@@ -35,18 +35,18 @@ export default function Services() {
                 <div className="w-full max-w-5xl mx-auto px-4">
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
-                        <div className="rounded-xl bg-gray-900/80 p-8 shadow flex flex-col items-center">
-                            <h3 className="text-2xl font-semibold text-blue-400 mb-3">1-to-1 Personal Training</h3>
-                            <ul className="space-y-2 text-gray-100 list-disc list-inside text-left">
+                        <div className="rounded-xl bg-green-100 p-8 shadow flex flex-col items-center">
+                            <h3 className="text-2xl font-semibold text-blue-500 mb-3">1-to-1 Personal Training</h3>
+                            <ul className="space-y-2 text-gray-900 list-disc list-inside text-left">
                                 <li>Train together in the gym with hands-on guidance</li>
                                 <li>Immediate form correction & real-time motivation</li>
                                 <li>Spotting for heavy lifts & safety support</li>
                                 <li>Great if you want direct, in-person accountability</li>
                             </ul>
                         </div>
-                        <div className="rounded-xl bg-gray-900/80 p-8 shadow flex flex-col items-center">
-                            <h3 className="text-2xl font-semibold text-blue-400 mb-3">Online Coaching</h3>
-                            <ul className="space-y-2 text-gray-100 list-disc list-inside text-left">
+                        <div className="rounded-xl bg-green-100 p-8 shadow flex flex-col items-center">
+                            <h3 className="text-2xl font-semibold text-blue-500 mb-3">Online Coaching</h3>
+                            <ul className="space-y-2 text-gray-900 list-disc list-inside text-left">
                                 <li>Personalised training & nutrition plan delivered online</li>
                                 <li>Weekly check-ins and progress tracking</li>
                                 <li>Train anywhere — gym, home, or while travelling</li>
@@ -54,46 +54,46 @@ export default function Services() {
                             </ul>
                         </div>
                     </div>
-                    <div className="rounded-xl border border-gray-700 bg-gray-800 p-8 shadow">
-                        <h3 id="benefits-heading" className="text-2xl font-semibold text-blue-400 mb-4 text-center">
+                    <div className="rounded-xl border border-gray-700 bg-blue-200 p-8 shadow">
+                        <h3 id="benefits-heading" className="text-2xl font-semibold text-blue-600 mb-4 text-center">
                             Benefits of Online Coaching
                         </h3>
-                        <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-100">
+                        <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-900">
                             <li className="flex items-start gap-2">
-                                <span className="mt-1 h-2 w-2 rounded-full bg-blue-500"></span>
+                                <span className="mt-1 h-2 w-2 rounded-full bg-blue-600"></span>
                                 Train on your schedule — no fixed session times
                             </li>
                             <li className="flex items-start gap-2">
-                                <span className="mt-1 h-2 w-2 rounded-full bg-blue-500"></span>
+                                <span className="mt-1 h-2 w-2 rounded-full bg-blue-600"></span>
                                 More affordable than in-person PT
                             </li>
                             <li className="flex items-start gap-2">
-                                <span className="mt-1 h-2 w-2 rounded-full bg-blue-500"></span>
+                                <span className="mt-1 h-2 w-2 rounded-full bg-blue-600"></span>
                                 Flexible for travel, shifts, or training at home
                             </li>
                             <li className="flex items-start gap-2">
-                                <span className="mt-1 h-2 w-2 rounded-full bg-blue-500"></span>
+                                <span className="mt-1 h-2 w-2 rounded-full bg-blue-600"></span>
                                 Ongoing support via regular check-ins
                             </li>
                             <li className="flex items-start gap-2">
-                                <span className="mt-1 h-2 w-2 rounded-full bg-blue-500"></span>
+                                <span className="mt-1 h-2 w-2 rounded-full bg-blue-600"></span>
                                 Access expert coaching from anywhere
                             </li>
                             <li className="flex items-start gap-2">
-                                <span className="mt-1 h-2 w-2 rounded-full bg-blue-500"></span>
+                                <span className="mt-1 h-2 w-2 rounded-full bg-blue-600"></span>
                                 Clear structure with progress tracking & updates
                             </li>
                         </ul>
                         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
                             <Link
                                 href="/about"
-                                className="inline-block bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white px-8 py-3 rounded-full text-lg font-semibold shadow transition duration-300 hover:bg-gradient-to-tl hover:from-gray-800 hover:via-gray-900 hover:to-black border-2 border-blue-700 hover:border-blue-400"
+                                className="inline-block bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white px-8 py-3 rounded-full text-lg font-semibold shadow transition duration-300 hover:bg-gradient-to-tl hover:from-gray-800 hover:via-gray-900 hover:to-black  hover:border-blue-400"
                             >
                                 Learn more about me
                             </Link>
                             <a
                                 href="#contact"
-                                className="inline-block bg-blue-700 text-white px-8 py-3 rounded-full text-lg font-semibold shadow hover:bg-blue-900 transition border-2 border-blue-700 hover:border-blue-400"
+                                className="inline-block bg-blue-700 text-white px-8 py-3 rounded-full text-lg font-semibold shadow hover:bg-blue-900 transition  hover:border-blue-400"
                             >
                                 Book a Free Consultation
                             </a>
