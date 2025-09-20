@@ -56,6 +56,8 @@ export default function WhyExercise() {
                     className="w-full h-auto rounded-xl mb-6 shadow-lg"
                 />
 
+                <h3 className="text-2xl font-bold mb-4 text-blue-400">Exercise Improves Your Mood</h3>
+
                 <p className="max-w-5xl mx-auto text-lg lg:text-2xl px-4 mb-10 text-gray-100">
                     Researchers said there is a great bond between regular exercises and human mood.<br /><br />
                     Aerobic exercises help you to release mood-lifting hormones, relieve stress, and give you a sense of well-being.<br /><br />
@@ -73,6 +75,8 @@ export default function WhyExercise() {
                     className="w-full h-auto rounded-xl mb-6 shadow-lg"
                 />
 
+                <h3 className="text-2xl font-bold mb-4 text-blue-400">Exercise Helps You Sleep Better</h3>
+
                      <p className="max-w-5xl mx-auto text-lg lg:text-2xl px-4 mb-10 text-gray-100">
                          Regular exercises can make you sleep early, enjoy deep sleep, and wake less during the night.<br /><br />
                          A night of deep sleep is the necessity of your body—it helps you feel refreshed, stay active, and work with more energy and encouragement.<br /><br />
@@ -88,6 +92,8 @@ export default function WhyExercise() {
                     height={400}
                     className="w-full h-auto rounded-xl mb-6 shadow-lg"
                 />
+
+                <h3 className="text-2xl font-bold mb-4 text-blue-400">Exercise Boosts Your Immune System</h3>
 
                 <p className="max-w-5xl mx-auto text-lg lg:text-2xl px-4 mb-10 text-gray-100">
                     A stronger immune system keeps the body safe from diseases.<br /><br />
@@ -105,6 +111,8 @@ export default function WhyExercise() {
                     className="w-full h-auto rounded-xl mb-6 shadow-lg"
                 />
 
+                <h3 className="text-2xl font-bold mb-4 text-blue-400">Exercise Strengthens Your Brain</h3>
+
                 <p className="max-w-5xl mx-auto text-lg lg:text-2xl px-4 mb-10 text-gray-100">
                     Science says less workout means your brain is more prone to serious problems.<br /><br />
                     There is great value in physical exercise—it can lessen memory problems like loss of memory in older people and minimize diseases like Alzheimer’s.<br /><br />
@@ -121,6 +129,8 @@ export default function WhyExercise() {
                     className="w-full h-auto rounded-xl mb-6 shadow-lg"
                 />
 
+                <h3 className="text-2xl font-bold mb-4 text-blue-400">Exercise Helps Control Your Weight</h3>
+
                 <p className="max-w-5xl mx-auto text-lg lg:text-2xl px-4 mb-10 text-gray-100">
                     Overweight people can’t survive for longer; they can easily be influenced by diseases that are caused due to their weight.<br /><br />
                     It’s better to control your weight if you want to stay healthy in your life.<br /><br />
@@ -135,6 +145,8 @@ export default function WhyExercise() {
                     height={400}
                     className="w-full h-auto rounded-xl mb-6 shadow-lg"
                 />
+
+                <h3 className="text-2xl font-bold mb-4 text-blue-400">Exercise Makes Life More Fun</h3>
 
                      <p className="max-w-5xl mx-auto text-lg lg:text-2xl px-4 mb-10 text-gray-100">
                          Physical exercise is not always hard to do; it gives you another kind of pleasantness.<br /><br />
