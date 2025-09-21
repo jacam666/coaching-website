@@ -27,7 +27,7 @@ export default function MealsPage() {
                         Delicious & Nutritious: Healthy Meals That Break the Boring Mold
                     </h2>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 px-4 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-4 gap-4">
                     {meals.map((meal, idx) => (
                         <div key={meal.slug} className="relative w-full h-95" style={{ perspective: "1000px" }}>
                             <div className={`absolute inset-0 w-full h-full transition-transform duration-500 ${flippedArr[idx] ? "rotate-y-180" : ""}`} style={{ transformStyle: "preserve-3d" }}>
