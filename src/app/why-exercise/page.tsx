@@ -25,27 +25,27 @@ export default function WhyExercise() {
                     <h3 className="text-xl font-bold mb-4">
                         It prevents many health issues such as:
                     </h3>
-                    <ul className="list-disc list-inside md:w-50 mx-auto text-start space-y-4 text-gray-100 mb-6">
-                        <div>
-                        <li>
-                            High blood pressure
-                        </li>
-                        <li>
-                            Falls
-                        </li>
-                        <li>
-                            Arthritis
-                        </li>
+                    <ul className="list-disc list-inside md:w-100 mx-auto text-start space-y-4 text-gray-100 ">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                            <li>
+                                High blood pressure
+                            </li>
+                            <li>
+                                Falls
+                            </li>
+                            <li>
+                                Arthritis
+                            </li>
+                            <li>
+                                Anxiety and depression
+                            </li>
+                            <li>
+                                Stroke
+                            </li>
+                            <li>
+                                Types of cancer
+                            </li>
                         </div>
-                        <li>
-                            Anxiety and depression
-                        </li>
-                        <li>
-                            Stroke
-                        </li>
-                        <li>
-                            Types of cancer
-                        </li>
                     </ul>
                 </div>
             </section>
