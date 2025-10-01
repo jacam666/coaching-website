@@ -87,13 +87,13 @@ export default function Services() {
                         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
                             <Link
                                 href="/about"
-                                className="inline-block bg-green-100 text-gray-900 px-8 py-3 rounded-full text-lg font-semibold shadow transition duration-300 hover:bg-gradient-to-tl hover:from-gray-800 hover:via-gray-900 hover:to-black  hover:border-blue-400"
+                                className="inline-block bg-green-100 text-gray-900 px-8 py-3 rounded-full text-lg font-semibold shadow transition duration-300   hover:bg-blue-300"
                             >
                                 Learn more about me
                             </Link>
                             <a
                                 href="#contact"
-                                className="inline-block bg-green-100 text-gray-900 px-8 py-3 rounded-full text-lg font-semibold shadow hover:bg-blue-900 transition  hover:border-blue-400"
+                                className="inline-block bg-green-100 text-gray-900 px-8 py-3 rounded-full text-lg font-semibold shadow hover:bg-blue-300 transition  hover:border-blue-400"
                             >
                                 Book a Free Consultation
                             </a>
