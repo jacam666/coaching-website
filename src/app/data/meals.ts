@@ -90,7 +90,7 @@ export const meals: Meal[] = [
     id: 9,
     slug: "healthy-chicken-burritos",
     title: " Chicken Burritos",
-    image: { src: "/images/meal-images/chicken-burrito.jpg", alt: "Chicken burritos sliced open" },
+    image: { src: "/images/meal-images/chicken-burritos-2.jpg", alt: "Chicken burritos sliced open" },
     kcal: 529, protein: 36, carbs: 46, fat: 20,
     ingredients: ["Cooked chicken", "Black beans", "Sweetcorn", "Brown rice", "Red pepper", "Avocado", "Tomato purée", "Wholemeal wraps"],
     tags: ["chicken", "mexican", "meal-prep"]
@@ -108,7 +108,7 @@ export const meals: Meal[] = [
     id: 11,
     slug: "superhealthy-singapore-noodles",
     title: " Singapore Noodles",
-    image: { src: "/images/meal-images/singapore-noodles.jpg", alt: "Singapore noodles with chicken and prawns" },
+    image: { src: "/images/meal-images/singapore-noodles-2.jpg", alt: "Singapore noodles with chicken and prawns" },
     kcal: 362, protein: 40, carbs: 33, fat: 9,
     ingredients: ["Egg noodles", "Chicken breast", "Prawns", "Tenderstem broccoli", "Red pepper", "Baby corn", "Madras paste", "Soy", "Beansprouts"],
     tags: ["stir-fry", "chicken", "prawn", "low-calorie"]
@@ -144,7 +144,7 @@ export const meals: Meal[] = [
     id: 15,
     slug: "ultimate-makeover-prawn-cocktail",
     title: "Prawn Cocktail",
-    image: { src: "/images/meal-images/prawn-cocktail-2.jpg", alt: "Prawn cocktail in a glass" },
+    image: { src: "/images/meal-images/prawn-cocktail-3.jpg", alt: "Prawn cocktail in a glass" },
     kcal: 186, protein: 14, carbs: 4, fat: 13,
     ingredients: ["Prawns", "Cucumber", "Dill", "Avocado", "Watercress", "Mayonnaise", "Fromage frais", "Ketchup", "Tabasco", "Worcestershire", "Lime"],
     tags: ["seafood", "starter", "retro"]
