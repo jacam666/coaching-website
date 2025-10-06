@@ -108,7 +108,7 @@ export const meals: Meal[] = [
     id: 11,
     slug: "superhealthy-singapore-noodles",
     title: " Singapore Noodles",
-    image: { src: "/images/meal-images/singapore-noodles-2.jpg", alt: "Singapore noodles with chicken and prawns" },
+    image: { src: "/images/meal-images/singapore-noodles.jpg", alt: "Singapore noodles with chicken and prawns" },
     kcal: 362, protein: 40, carbs: 33, fat: 9,
     ingredients: ["Egg noodles", "Chicken breast", "Prawns", "Tenderstem broccoli", "Red pepper", "Baby corn", "Madras paste", "Soy", "Beansprouts"],
     tags: ["stir-fry", "chicken", "prawn", "low-calorie"]
