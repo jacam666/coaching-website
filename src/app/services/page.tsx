@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 export default function Services() {
     return (
-        <main className="flex flex-col min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white">
+        <main className="flex flex-col min-h-screen bg-gradient-to-br from-pink-100 via-green-200 to-yellow-200 text-white">
             <div className="px-4">
                 <Navbar />
             </div>
@@ -28,7 +28,7 @@ export default function Services() {
                     </div>
                 </div>
             </section>
-            <h2 className="text-3xl md:text-4xl font-bold text-center  text-white">
+            <h2 className="text-3xl md:text-4xl font-bold text-center  text-gray-900">
                         So what is the difference between Online Coaching and <br></br> 1-to-1 Personal Training?
                     </h2>
             <section className="flex-1 py-10">
@@ -54,7 +54,7 @@ export default function Services() {
                             </ul>
                         </div>
                     </div>
-                    <div className="rounded-xl border border-gray-700 bg-blue-200 p-8 shadow">
+                    <div className="rounded-xl border border-gray-200 bg-blue-200 p-8 shadow">
                         <h3 id="benefits-heading" className="text-2xl font-semibold text-blue-600 mb-4 text-center">
                             Benefits of Online Coaching
                         </h3>

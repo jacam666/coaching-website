@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-export default function Navbar() {
+export default function Navbar({ className = "" , buttonColor = "text-yellow-400 hover:text-yellow-300 focus:text-yellow-600"}) {
 
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -10,10 +10,9 @@ export default function Navbar() {
         setIsMobileMenuOpen(!isMobileMenuOpen);
     }
 
-
     return (
         <div className="w-full bg-opacity-90 backdrop-blur-md  mt-4">
-            <nav>
+            <nav className={`${className}`}>
                 <div className="max-w-7xl mx-auto  sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">
@@ -26,7 +25,8 @@ export default function Navbar() {
                             <button
                                 type="button"
                                 onClick={toggleMobileMenu}
-                                className="text-yellow-400 hover:text-yellow-300 focus:outline-none focus:text-blue-600 transition-colors duration-200"
+                                    className={`${buttonColor} focus:outline-none transition-colors duration-200`}
+
                                 aria-label="Toggle mobile menu"
                                 aria-expanded={isMobileMenuOpen}
                             >

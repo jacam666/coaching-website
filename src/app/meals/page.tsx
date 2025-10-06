@@ -17,9 +17,9 @@ export default function MealsPage() {
     };
 
     return (
-        <main className="flex flex-col min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white">
+        <main className="flex flex-col min-h-screen bg-gradient-to-br from-green-400 via-green-300 to-green-500 text-white">
             <div className="px-4">
-                <Navbar />
+                <Navbar buttonColor="text-green-500 hover:text-green-300 focus:text-green-600" />
             </div>
             <section className="flex-1 py-10">
                 <div className="max-w-4xl mx-auto px-4 mb-8">
@@ -32,7 +32,7 @@ export default function MealsPage() {
                         <div key={meal.slug} className="relative w-full h-95" style={{ perspective: "1000px" }}>
                             <div className={`absolute inset-0 w-full h-full transition-transform duration-500 ${flippedArr[idx] ? "rotate-y-180" : ""}`} style={{ transformStyle: "preserve-3d" }}>
                                 {/* Front */}
-                                <div className={`absolute inset-0 w-full h-full bg-white rounded-xl border border-blue-700 shadow p-4 ${flippedArr[idx] ? "opacity-0" : "opacity-100"}`} style={{ backfaceVisibility: "hidden" }}>
+                                <div className={`absolute inset-0 w-full h-full bg-white rounded-xl border border-green-700 shadow p-4 ${flippedArr[idx] ? "opacity-0" : "opacity-100"}`} style={{ backfaceVisibility: "hidden" }}>
                                     <img src={meal.image.src} alt={meal.image.alt} className="w-full h-48 object-cover rounded-md mb-4" />
                                     <div className="text-center bg-green-100 p-3 rounded-md overflow-auto">
                                         <h3 className="text-xl text-gray-900 font-semibold">{meal.title}</h3>

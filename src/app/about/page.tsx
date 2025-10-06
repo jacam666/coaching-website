@@ -6,11 +6,11 @@ import Navbar from "../components/Navbar";
 
 export default function About() {
     return (
-        <main className="flex flex-col min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white">
+        <main className="flex flex-col min-h-screen bg-green-100 text-white">
             {/* Shared nav/header */}
             {/* <Header /> */}
             <div className="px-4">
-                <Navbar />
+                <Navbar buttonColor="text-green-400 hover:text-green-300 focus:text-green-600" />
             </div>
             <section className="flex-1 py-10">
                 <Container>
@@ -23,7 +23,7 @@ export default function About() {
                             <span className="text-3xl font-bold text-white">Coaching</span>
                         </div> */}
                     </div>
-                    <p className="text-xl md:text-2xl text-center text-gray-100 mb-6">
+                    <p className="text-xl md:text-2xl text-center text-gray-900 mb-6">
                                 I am Jamie Cameron a passionate coach dedicated to helping you achieve your fitness goals.
                             </p>
                     <div className="flex flex-col lg:flex-row w-full items-center justify-center gap-12">
@@ -40,16 +40,16 @@ export default function About() {
                         </div> */}
                         {/* Intro & achievements */}
                         <div>
-                            <div className=" rounded-xl  p-6 shadow ">
-                                <h2 className="text-2xl font-bold text-blue-400 mb-2">
+                            <div className=" rounded-xl  p-6 shadow-xl bg-green-100">
+                                <h2 className="text-2xl font-bold text-green-500 mb-2">
                                     My Experience & Achievements
                                 </h2>
-                                <ul className="text-gray-100 text-left list-disc list-inside space-y-2">
+                                <ul className="text-gray-900 text-left list-disc list-inside space-y-2">
                                     <li>30 years of experience in fitness and bodybuilding</li>
                                     <li>Multiple bodybuilding competition wins</li>
                                     <li>Expert in dieting, body transformation, and muscle mass gain</li>
                                     <li>Competitor in powerlifting competitions</li>
-                                    <li>ABPU M2 110KG bench press British record holder</li>
+                                    <li>ABPU M2 bench press British record holder</li>
                                 </ul>
                             </div>
                         </div>
@@ -84,7 +84,7 @@ export default function About() {
                     <div className="text-center mt-10">
                         <a
                             href="#contact"
-                            className="inline-block bg-blue-700 text-white px-8 py-3 rounded-full text-lg font-semibold shadow hover:bg-blue-900 transition border-2 border-blue-700 hover:border-blue-400"
+                            className="inline-block bg-green-200 text-gray-900 px-8 py-3 rounded-full text-lg font-semibold shadow hover:bg-green-400 transition border-2 border-green-700 hover:border-green-400"
                         >
                             Book Your Free Consultation
                         </a>

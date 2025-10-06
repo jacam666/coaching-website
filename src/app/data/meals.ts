@@ -104,15 +104,15 @@ export const meals: Meal[] = [
     ingredients: ["Chicken breasts", "Flaked almonds", "Onion", "Garlic", "Ginger", "Curry powder", "Turmeric", "Wholemeal flour", "Brown rice"],
     tags: ["chicken", "japanese", "baked"]
   },
-  {
-    id: 11,
-    slug: "superhealthy-singapore-noodles",
-    title: " Singapore Noodles",
-    image: { src: "/images/meal-images/singapore-noodles.jpg", alt: "Singapore noodles with chicken and prawns" },
-    kcal: 362, protein: 40, carbs: 33, fat: 9,
-    ingredients: ["Egg noodles", "Chicken breast", "Prawns", "Tenderstem broccoli", "Red pepper", "Baby corn", "Madras paste", "Soy", "Beansprouts"],
-    tags: ["stir-fry", "chicken", "prawn", "low-calorie"]
-  },
+  // {
+  //   id: 11,
+  //   slug: "superhealthy-singapore-noodles",
+  //   title: " Singapore Noodles",
+  //   image: { src: "/images/meal-images/singapore-noodles.jpg", alt: "Singapore noodles with chicken and prawns" },
+  //   kcal: 362, protein: 40, carbs: 33, fat: 9,
+  //   ingredients: ["Egg noodles", "Chicken breast", "Prawns", "Tenderstem broccoli", "Red pepper", "Baby corn", "Madras paste", "Soy", "Beansprouts"],
+  //   tags: ["stir-fry", "chicken", "prawn", "low-calorie"]
+  // },
   {
     id: 12,
     slug: "healthy-beef-stew",
