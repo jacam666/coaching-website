@@ -70,11 +70,11 @@ export default function Home() {
             />
             <div className="flex items-center gap-6">
               <img src="/jc-logo-green.svg" alt="JC Logo" className="w-20 h-20" />
-              <span className="text-5xl font-bold text-gray-900">Coaching</span>
+              <span className="text-5xl font-bold text-green-900">Coaching</span>
             </div>
           </div>
         </div>
-        <p className="text-lg md:text-2xl text-gray-800 mb-8 mt-2 text-center">
+        <p className="text-2xl md:text-3xl text-gray-800 mb-8 mt-2 text-center">
           1-to-1 Online Coaching for Personal Training & Diet Plans
         </p>
         <div className="flex flex-col md:flex-row items-center gap-4">
@@ -98,15 +98,15 @@ export default function Home() {
       <section className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 shadow-md md:shadow-none rounded-xl gap-8 py-12 my-8 md:my-0 ">
         <div className="bg-green-100 rounded-xl p-8 flex flex-col items-center">
           <img src="/file.svg" alt="Personal Training" className="w-16 h-16 mb-4" />
-          <h2 className="text-2xl font-bold text-green-700 mb-2">Online Coaching</h2>
-          <p className="text-green-900 text-center">
+          <h2 className="text-3xl font-bold text-green-700 mb-2">Online Coaching</h2>
+          <p className="text-green-900 text-center text-lg">
             Customized workout plans, progress tracking, and expert guidance to help you reach your fitness goals from anywhere.
           </p>
         </div>
         <div className="bg-green-100 rounded-xl p-8 flex flex-col items-center">
           <img src="/window.svg" alt="Diet Plans" className="w-16 h-16 mb-4" />
-          <h2 className="text-2xl font-bold text-green-700 mb-2">Diet Plans</h2>
-          <p className="text-green-900 text-center">
+          <h2 className="text-3xl font-bold text-green-700 mb-2">Diet Plans</h2>
+          <p className="text-green-900 text-center text-lg">
             Personalized nutrition strategies tailored to your lifestyle, preferences, and goals for sustainable results.
           </p>
         </div>
@@ -114,15 +114,15 @@ export default function Home() {
 
       {/* About Section */}
       <section className="max-w-2xl text-center py-8 bg-green-100 shadow-md md:shadow-none rounded-xl my-8 md:my-0">
-        <h3 className="text-xl font-semibold text-green-700 mb-2">Why Choose Us?</h3>
-        <p className="text-green-900">
+        <h3 className="text-3xl font-semibold text-green-700 mb-2">Why Choose Us?</h3>
+        <p className="text-green-900 text-lg">
           With years of experience in fitness and nutrition coaching, I provide dedicated support and proven strategies to help you transform your health and confidence. Start your journey today!
         </p>
       </section>
 
       {/* Contact Section */}
       <section id="contact" className="w-full max-w-xl shadow-md md:shadow-none rounded-xl my-8 md:my-0  py-12">
-        <h3 className="text-2xl font-bold text-green-700 mb-4 text-center">Get in Touch</h3>
+        <h3 className="text-3xl font-bold text-green-700 mb-4 text-center">Get in Touch</h3>
         <form onSubmit={onSubmit} className="flex flex-col gap-4 bg-green-100 rounded-xl p-8">
           <input type="text" name="name" placeholder="Your Name" className="border border-green-300 bg-white text-green-900 rounded px-4 py-2" required />
           <input type="email" name="email" placeholder="Your Email" className="border border-green-300 bg-white text-green-900 rounded px-4 py-2" required />

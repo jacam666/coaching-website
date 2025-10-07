@@ -25,7 +25,7 @@ export default function WhyExercise() {
                     <h3 className="text-xl font-bold mb-4">
                         It prevents many health issues such as:
                     </h3>
-                    <ul className="list-disc list-inside md:w-100 mx-auto text-start space-y-4 text-green-600 ">
+                    <ul className="list-disc list-inside md:w-100 mx-auto text-start space-y-4 text-green-900 ">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                             <li>
                                 High blood pressure
@@ -59,7 +59,7 @@ export default function WhyExercise() {
                         className="w-full h-auto rounded-xl mb-6 shadow-lg"
                     />
 
-                    <h3 className="text-2xl font-bold mb-4 text-blue-400">Exercise Improves Your Mood</h3>
+                    <h3 className="text-2xl font-bold mb-4 text-blue-600">Exercise Improves Your Mood</h3>
 
                     <p className="max-w-5xl mx-auto text-lg lg:text-2xl px-4  text-gray-900">
                         Researchers say there is a strong connection between regular exercise and mood.<br /><br />
@@ -77,7 +77,7 @@ export default function WhyExercise() {
                         className="w-full h-auto rounded-xl mb-6 shadow-lg"
                     />
 
-                    <h3 className="text-2xl font-bold mb-4 text-blue-400">Exercise Helps You Sleep Better</h3>
+                    <h3 className="text-2xl font-bold mb-4 text-blue-600">Exercise Helps You Sleep Better</h3>
 
                     <p className="max-w-5xl mx-auto text-lg lg:text-2xl px-4  text-gray-900">
                         Regular exercise can help you fall asleep earlier, enjoy deeper sleep, and wake less during the night.<br /><br />
@@ -95,7 +95,7 @@ export default function WhyExercise() {
                         className="w-full h-auto rounded-xl mb-6 shadow-lg"
                     />
 
-                    <h3 className="text-2xl font-bold mb-4 text-blue-400">Exercise Boosts Your Immune System</h3>
+                    <h3 className="text-2xl font-bold mb-4 text-blue-600">Exercise Boosts Your Immune System</h3>
 
                     <p className="max-w-5xl mx-auto text-lg lg:text-2xl px-4  text-gray-900">
                         A strong immune system keeps your body safe from disease.<br /><br />
@@ -113,7 +113,7 @@ export default function WhyExercise() {
                         className="w-full h-auto rounded-xl mb-6 shadow-lg"
                     />
 
-                    <h3 className="text-2xl font-bold mb-4 text-blue-400">Exercise Strengthens Your Brain</h3>
+                    <h3 className="text-2xl font-bold mb-4 text-blue-600">Exercise Strengthens Your Brain</h3>
 
                     <p className="max-w-5xl mx-auto text-lg lg:text-2xl px-4  text-gray-900">
                         Research shows that lack of exercise makes your brain more prone to serious problems.<br /><br />
@@ -131,7 +131,7 @@ export default function WhyExercise() {
                         className="w-full h-auto rounded-xl mb-6 shadow-lg"
                     />
 
-                    <h3 className="text-2xl font-bold mb-4 text-blue-400">Exercise Helps Control Your Weight</h3>
+                    <h3 className="text-2xl font-bold mb-4 text-blue-600">Exercise Helps Control Your Weight</h3>
 
                     <p className="max-w-5xl mx-auto text-lg lg:text-2xl px-4  text-gray-900">
                         Overweight people are at higher risk for diseases related to excess weight.<br /><br />
@@ -148,7 +148,7 @@ export default function WhyExercise() {
                         className="w-full h-auto rounded-xl mb-6 shadow-lg"
                     />
 
-                    <h3 className="text-2xl font-bold mb-4 text-blue-400">Exercise Makes Life More Fun</h3>
+                    <h3 className="text-2xl font-bold mb-4 text-blue-600">Exercise Makes Life More Fun</h3>
 
                     <p className="max-w-5xl mx-auto text-lg lg:text-2xl px-4  text-gray-900">
                         Physical exercise isn’t always hard; it can be enjoyable.<br /><br />

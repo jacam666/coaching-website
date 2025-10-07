@@ -36,7 +36,7 @@ export default function Services() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
                         <div className="rounded-xl bg-green-100 p-8 shadow-lg  md:shadow-none flex flex-col items-center">
-                            <h3 className="text-2xl font-semibold text-green-500 mb-3">1-to-1 Personal Training</h3>
+                            <h3 className="text-2xl font-semibold text-green-600 mb-3">1-to-1 Personal Training</h3>
                             <ul className="space-y-2 text-gray-900 list-disc list-inside text-left">
                                 <li>Train together in the gym with hands-on guidance</li>
                                 <li>Immediate form correction & real-time motivation</li>
@@ -45,7 +45,7 @@ export default function Services() {
                             </ul>
                         </div>
                         <div className="rounded-xl bg-green-100 p-8 shadow-lg  md:shadow-none flex flex-col items-center">
-                            <h3 className="text-2xl font-semibold text-green-500 mb-3">Online Coaching</h3>
+                            <h3 className="text-2xl font-semibold text-green-600 mb-3">Online Coaching</h3>
                             <ul className="space-y-2 text-gray-900 list-disc list-inside text-left">
                                 <li>Personalised training & nutrition plan delivered online</li>
                                 <li>Weekly check-ins and progress tracking</li>

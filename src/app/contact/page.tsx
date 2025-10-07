@@ -12,8 +12,8 @@ export default function ContactPage() {
             </div>
             <section className="flex-1 py-10">
                 <div className="w-full max-w-5xl mx-auto px-4">
-                    <h2 className="text-4xl font-extrabold text-center mb-2 text-green-500">Let’s Connect!</h2>
-                    <p className="text-lg text-center text-green-800 mb-6">Ready to start your fitness journey or have a question? I’d love to hear from you.</p>
+                    <h2 className="text-4xl font-extrabold text-center mb-2 text-green-600">Let’s Connect!</h2>
+                    <p className="text-lg text-center text-green-900 mb-6">Ready to start your fitness journey or have a question? I’d love to hear from you.</p>
 
                     <form className="bg-green-50 rounded-xl border border-green-700 p-8 shadow max-w-lg mx-auto" onSubmit={(e) => { e.preventDefault(); alert('Form submitted!'); e.currentTarget.reset(); }}>
                         <div className="mb-4">
@@ -34,7 +34,7 @@ export default function ContactPage() {
                     </form>
                     <div className="mt-10 max-w-lg mx-auto bg-green-100 rounded-xl border border-green-700 p-6 shadow">
                         <h3 className="text-xl font-bold text-green-600 mb-2 text-center">What Happens Next?</h3>
-                        <ul className="text-green-800 text-left list-disc list-inside space-y-2">
+                        <ul className="text-green-900 text-left list-disc list-inside space-y-2">
                             <li>You’ll get a reply within 24 hours (usually much faster!)</li>
                             <li>I’ll answer your questions or help you get started with coaching</li>
                             <li>We’ll discuss your goals and the best plan for you</li>

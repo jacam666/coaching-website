@@ -23,7 +23,7 @@ export default function About() {
                             <span className="text-3xl font-bold text-white">Coaching</span>
                         </div> */}
                     </div>
-                    <p className="text-xl md:text-2xl text-center text-gray-900 mb-6">
+                    <p className="text-xl md:text-2xl text-center text-green-900 mb-6">
                         I am Jamie Cameron a passionate coach dedicated to helping you achieve your fitness goals.
                     </p>
                     <div className="flex flex-col lg:flex-row w-full items-center justify-center gap-12">
@@ -41,10 +41,10 @@ export default function About() {
                         {/* Intro & achievements */}
                         <div>
                             <div className=" rounded-xl  p-6 shadow-xl md:shadow-none bg-green-100">
-                                <h2 className="text-2xl font-bold text-green-500 mb-2">
+                                <h2 className="text-2xl font-bold text-green-600 mb-2">
                                     My Experience & Achievements
                                 </h2>
-                                <ul className="text-gray-900 text-left list-disc list-inside space-y-2">
+                                <ul className="text-green-900 text-left list-disc list-inside space-y-2">
                                     <li>30 years of experience in fitness and bodybuilding</li>
                                     <li>Multiple bodybuilding competition wins</li>
                                     <li>Expert in dieting, body transformation, and muscle mass gain</li>
