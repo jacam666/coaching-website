@@ -24,8 +24,8 @@ export default function About() {
                         </div> */}
                     </div>
                     <p className="text-xl md:text-2xl text-center text-gray-900 mb-6">
-                                I am Jamie Cameron a passionate coach dedicated to helping you achieve your fitness goals.
-                            </p>
+                        I am Jamie Cameron a passionate coach dedicated to helping you achieve your fitness goals.
+                    </p>
                     <div className="flex flex-col lg:flex-row w-full items-center justify-center gap-12">
                         {/* Profile image */}
                         {/* <div>
@@ -40,7 +40,7 @@ export default function About() {
                         </div> */}
                         {/* Intro & achievements */}
                         <div>
-                            <div className=" rounded-xl  p-6 shadow-xl bg-green-100">
+                            <div className=" rounded-xl  p-6 shadow-xl md:shadow-none bg-green-100">
                                 <h2 className="text-2xl font-bold text-green-500 mb-2">
                                     My Experience & Achievements
                                 </h2>
@@ -83,8 +83,8 @@ export default function About() {
                     </section>
                     <div className="text-center mt-10">
                         <a
-                            href="#contact"
-                            className="inline-block bg-green-200 text-gray-900 px-8 py-3 rounded-full text-lg font-semibold shadow hover:bg-green-400 transition border-2 border-green-700 hover:border-green-400"
+                            href="/contact"
+                            className="inline-block bg-green-100 text-green-900 px-8 py-3 rounded-full text-lg font-semibold hover:bg-green-300 transition border-2 border-green-300 hover:border-green-500"
                         >
                             Book Your Free Consultation
                         </a>

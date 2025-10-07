@@ -45,10 +45,10 @@ export default function Home() {
 
 
   return (
-  <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-yellow-50 via-orange-50 to-orange-100 px-4">
-    <Navbar />
-    {/* Hero Section */}
-  <section className="py-10 flex flex-col items-center justify-center gap-8 w-full max-w-5xl mx-auto bg-yellow-50 rounded-xl">
+    <main className="flex flex-col items-center justify-center min-h-screen bg-green-100 px-4">
+      <Navbar />
+      {/* Hero Section */}
+      <section className="py-10 flex flex-col items-center justify-center gap-8 w-full max-w-5xl mx-auto shadow-md md:shadow-none bg-green-100 rounded-xl">
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 w-full">
           {/* Mobile: logo/text above image; Desktop: image first */}
           <div className="flex flex-col md:hidden items-center w-full">
@@ -57,7 +57,7 @@ export default function Home() {
               width={80}
               height={80}
               alt="Coach portrait"
-              className="w-44 h-44 rounded-full object-cover border-4 border-yellow-100 shadow-lg"
+              className="w-44 h-44 rounded-full object-cover border-4 border-green-100 shadow-lg"
             />
           </div>
           <div className="hidden md:flex flex-row items-center gap-6 md:gap-12 w-full justify-center">
@@ -66,69 +66,70 @@ export default function Home() {
               width={80}
               height={80}
               alt="Coach portrait"
-              className="w-44 h-44 rounded-full object-cover border-4 border-yellow-100 shadow-lg"
+              className="w-44 h-44 rounded-full object-cover border-4 border-green-100 shadow-lg"
             />
             <div className="flex items-center gap-6">
-              <img src="/jc-logo-yellow.svg" alt="JC Logo" className="w-20 h-20" />
+              <img src="/jc-logo-green.svg" alt="JC Logo" className="w-20 h-20" />
               <span className="text-5xl font-bold text-gray-900">Coaching</span>
             </div>
           </div>
         </div>
-  <p className="text-lg md:text-2xl text-gray-800 mb-8 mt-2 text-center">
+        <p className="text-lg md:text-2xl text-gray-800 mb-8 mt-2 text-center">
           1-to-1 Online Coaching for Personal Training & Diet Plans
         </p>
-        <a
-          href="#contact"
-          className="inline-block bg-yellow-100 text-orange-900 px-8 py-3 rounded-full text-lg font-semibold hover:bg-orange-300 transition border-2 border-orange-300 hover:border-orange-500"
-        >
-          Book Your Free Consultation
-        </a>
-      </section>
+        <div className="flex flex-col md:flex-row items-center gap-4">
+          <Link
+            href="#contact"
+            className="inline-block bg-green-100 text-green-900 px-8 py-3 rounded-full text-lg font-semibold hover:bg-green-300 transition border-2 border-green-300 hover:border-green-500"
+          >
+            Book Your Free Consultation
+          </Link>
 
-      <section className="my-8 flex justify-center">
-        <Link
-          href="/about"
-          className="inline-block bg-gradient-to-br from-orange-100 via-yellow-50 to-yellow-200 text-orange-900 px-8 py-3 rounded-full text-lg font-semibold transition duration-300 hover:bg-orange-300 border-2 border-orange-300 hover:border-orange-500"
-        >
-          Learn more about me
-        </Link>
+          <Link
+            href="/about"
+            className="inline-block bg-gradient-to-br from-green-100 via-green-50 to-green-200 text-green-900 px-8 py-3 rounded-full text-lg font-semibold transition duration-300 hover:bg-green-300 border-2 border-green-300 hover:border-green-500"
+          >
+            Learn more about me
+          </Link>
+        </div>
+
       </section>
       {/* Services Section */}
-    <section className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8 py-12">
-  <div className="bg-yellow-50 rounded-xl p-8 flex flex-col items-center">
+      <section className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 shadow-md md:shadow-none rounded-xl gap-8 py-12 my-8 md:my-0 ">
+        <div className="bg-green-100 rounded-xl p-8 flex flex-col items-center">
           <img src="/file.svg" alt="Personal Training" className="w-16 h-16 mb-4" />
-          <h2 className="text-2xl font-bold text-orange-700 mb-2">Online Coaching</h2>
-          <p className="text-orange-900 text-center">
+          <h2 className="text-2xl font-bold text-green-700 mb-2">Online Coaching</h2>
+          <p className="text-green-900 text-center">
             Customized workout plans, progress tracking, and expert guidance to help you reach your fitness goals from anywhere.
           </p>
         </div>
-  <div className="bg-yellow-50 rounded-xl p-8 flex flex-col items-center">
+        <div className="bg-green-100 rounded-xl p-8 flex flex-col items-center">
           <img src="/window.svg" alt="Diet Plans" className="w-16 h-16 mb-4" />
-          <h2 className="text-2xl font-bold text-orange-700 mb-2">Diet Plans</h2>
-          <p className="text-orange-900 text-center">
+          <h2 className="text-2xl font-bold text-green-700 mb-2">Diet Plans</h2>
+          <p className="text-green-900 text-center">
             Personalized nutrition strategies tailored to your lifestyle, preferences, and goals for sustainable results.
           </p>
         </div>
       </section>
 
       {/* About Section */}
-  <section className="max-w-2xl text-center py-8 bg-yellow-50 rounded-xl">
-    <h3 className="text-xl font-semibold text-orange-700 mb-2">Why Choose Us?</h3>
-    <p className="text-orange-900">
+      <section className="max-w-2xl text-center py-8 bg-green-100 shadow-md md:shadow-none rounded-xl my-8 md:my-0">
+        <h3 className="text-xl font-semibold text-green-700 mb-2">Why Choose Us?</h3>
+        <p className="text-green-900">
           With years of experience in fitness and nutrition coaching, I provide dedicated support and proven strategies to help you transform your health and confidence. Start your journey today!
         </p>
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="w-full max-w-xl py-12">
-        <h3 className="text-2xl font-bold text-orange-700 mb-4 text-center">Get in Touch</h3>
-        <form onSubmit={onSubmit} className="flex flex-col gap-4 bg-yellow-50 rounded-xl p-8">
-          <input type="text" name="name" placeholder="Your Name" className="border border-orange-300 bg-white text-orange-900 rounded px-4 py-2" required />
-          <input type="email" name="email" placeholder="Your Email" className="border border-orange-300 bg-white text-orange-900 rounded px-4 py-2" required />
-          <textarea name="message" placeholder="How can I help you?" className="border border-orange-300 bg-white text-orange-900 rounded px-4 py-2" rows={4} required />
+      <section id="contact" className="w-full max-w-xl shadow-md md:shadow-none rounded-xl my-8 md:my-0  py-12">
+        <h3 className="text-2xl font-bold text-green-700 mb-4 text-center">Get in Touch</h3>
+        <form onSubmit={onSubmit} className="flex flex-col gap-4 bg-green-100 rounded-xl p-8">
+          <input type="text" name="name" placeholder="Your Name" className="border border-green-300 bg-white text-green-900 rounded px-4 py-2" required />
+          <input type="email" name="email" placeholder="Your Email" className="border border-green-300 bg-white text-green-900 rounded px-4 py-2" required />
+          <textarea name="message" placeholder="How can I help you?" className="border border-green-300 bg-white text-green-900 rounded px-4 py-2" rows={4} required />
           <button
             type="submit"
-            className={`px-6 py-2 rounded-full font-semibold transition text-lg ${sent ? "bg-green-600 text-white" : "bg-yellow-100 text-orange-900 hover:bg-orange-300 border-2 border-orange-300 hover:border-orange-500"}`}
+            className={`px-6 py-2 rounded-full font-semibold transition text-lg ${sent ? "bg-green-600 text-white" : "bg-green-100 text-green-900 hover:bg-green-300 border-2 border-green-300 hover:border-green-500"}`}
             disabled={isSending || sent}
           >
             {isSending ? "Sending..." : sent ? "Message sent" : "Send Message"}

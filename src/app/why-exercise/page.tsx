@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function WhyExercise() {
     return (
-        <main className="flex flex-col min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white">
+        <main className="flex flex-col min-h-screen bg-green-100 text-green-600">
             <div className="px-4">
                 <Navbar />
             </div>
@@ -25,7 +25,7 @@ export default function WhyExercise() {
                     <h3 className="text-xl font-bold mb-4">
                         It prevents many health issues such as:
                     </h3>
-                    <ul className="list-disc list-inside md:w-100 mx-auto text-start space-y-4 text-gray-100 ">
+                    <ul className="list-disc list-inside md:w-100 mx-auto text-start space-y-4 text-green-600 ">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                             <li>
                                 High blood pressure
@@ -49,8 +49,8 @@ export default function WhyExercise() {
                     </ul>
                 </div>
             </section>
-            <div className="px-4 grid grid-cols-1 md:grid-cols-2 gap-2 ">
-                <section className="w-full max-w-5xl mx-auto px-4 bg-blue-100 p-8 ">
+            <div className="px-4 grid grid-cols-1 md:grid-cols-2 gap-2  ">
+                <section className="w-full max-w-5xl mx-auto px-4 bg-blue-100 p-8 rounded-xl ">
                     <Image
                         src="/images/why-exercise/fitness-1.jpg"
                         alt="Benefits of Exercise"
@@ -68,7 +68,7 @@ export default function WhyExercise() {
                         Depression can cause many serious problems. It’s best to prevent these obstacles early in life through physical activity.
                     </p>
                 </section>
-                <section className="w-full max-w-5xl mx-auto px-4 bg-green-100 p-8 ">
+                <section className="w-full max-w-5xl mx-auto px-4 bg-green-200 p-8 rounded-xl ">
                     <Image
                         src="/images/why-exercise/fitness-sleep.jpg"
                         alt="Benefits of Exercise"
@@ -86,7 +86,7 @@ export default function WhyExercise() {
                         Sleep is essential for a healthy lifestyle, a glowing appearance, and enthusiasm for your daily activities.
                     </p>
                 </section>
-                <section className="w-full max-w-5xl mx-auto px-4 bg-red-100 p-8 ">
+                <section className="w-full max-w-5xl mx-auto px-4 bg-red-100 p-8 rounded-xl">
                     <Image
                         src="/images/why-exercise/fitness-immunity.jpg"
                         alt="Benefits of Exercise"
@@ -104,7 +104,7 @@ export default function WhyExercise() {
                         (A recent study found that colds last 43% longer for people who exercise only once a week.)
                     </p>
                 </section>
-                <section className="w-full max-w-5xl mx-auto px-4 bg-yellow-100 p-8 ">
+                <section className="w-full max-w-5xl mx-auto px-4 bg-yellow-100 p-8 rounded-xl">
                     <Image
                         src="/images/why-exercise/fitness-thinking.jpg"
                         alt="Benefits of Exercise"
@@ -122,7 +122,7 @@ export default function WhyExercise() {
                         With a little effort, you can improve your problem-solving skills.
                     </p>
                 </section>
-                <section className="w-full max-w-5xl mx-auto px-4 bg-orange-100 p-8 ">
+                <section className="w-full max-w-5xl mx-auto px-4 bg-orange-100 p-8 rounded-xl">
                     <Image
                         src="/images/why-exercise/fitness-weight.jpg"
                         alt="Benefits of Exercise"
@@ -139,7 +139,7 @@ export default function WhyExercise() {
                         Physical fitness is important for people of all ages, especially those who are overweight.
                     </p>
                 </section>
-                <section className="w-full max-w-5xl mx-auto bg-fuchsia-100 px-4 p-8 ">
+                <section className="w-full max-w-5xl mx-auto bg-fuchsia-100 px-4 p-8 rounded-xl">
                     <Image
                         src="/images/why-exercise/fitness-fun.jpg"
                         alt="Benefits of Exercise"

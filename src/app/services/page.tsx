@@ -5,15 +5,15 @@ import Footer from "../components/Footer";
 
 export default function Services() {
     return (
-        <main className="flex flex-col min-h-screen bg-gradient-to-br from-pink-100 via-green-200 to-yellow-200 text-white">
+        <main className="flex flex-col min-h-screen bg-green-100 text-white">
             <div className="px-4">
                 <Navbar />
             </div>
             {/* section for Online Coaching description */}
             <section className="py-10 flex flex-col items-center justify-center gap-8 w-full px-4 max-w-5xl mx-auto">
                 <div className="w-full">
-                    <div className="bg-blue-200 rounded-xl  p-6 shadow mb-4">
-                        <h1 id="services-heading" className="text-3xl font-semibold text-blue-600 mb-3 text-center">Online Coaching</h1>
+                    <div className="bg-green-50 rounded-xl  p-6 shadow mb-4">
+                        <h1 id="services-heading" className="text-3xl font-semibold text-green-600 mb-3 text-center">Online Coaching</h1>
                         <div className="text-gray-900 text-lg text-center space-y-4">
                             <p>
                                 Personalised training and nutrition built around your life—no gym schedules to juggle. After a quick video consultation, I’ll set clear goals and create a phased programme for home or gym, plus simple calorie/macros targets you can actually stick to.
@@ -28,15 +28,15 @@ export default function Services() {
                     </div>
                 </div>
             </section>
-            <h2 className="text-3xl md:text-4xl font-bold text-center  text-gray-900">
-                        So what is the difference between Online Coaching and <br></br> 1-to-1 Personal Training?
-                    </h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-center w-3/4 mx-auto text-green-600">
+                So what is the difference between Online Coaching and <br></br> 1-to-1 Personal Training?
+            </h2>
             <section className="flex-1 py-10">
                 <div className="w-full max-w-5xl mx-auto px-4">
-                    
+
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
-                        <div className="rounded-xl bg-green-100 p-8 shadow flex flex-col items-center">
-                            <h3 className="text-2xl font-semibold text-blue-500 mb-3">1-to-1 Personal Training</h3>
+                        <div className="rounded-xl bg-green-50 p-8 shadow flex flex-col items-center">
+                            <h3 className="text-2xl font-semibold text-green-500 mb-3">1-to-1 Personal Training</h3>
                             <ul className="space-y-2 text-gray-900 list-disc list-inside text-left">
                                 <li>Train together in the gym with hands-on guidance</li>
                                 <li>Immediate form correction & real-time motivation</li>
@@ -44,8 +44,8 @@ export default function Services() {
                                 <li>Great if you want direct, in-person accountability</li>
                             </ul>
                         </div>
-                        <div className="rounded-xl bg-green-100 p-8 shadow flex flex-col items-center">
-                            <h3 className="text-2xl font-semibold text-blue-500 mb-3">Online Coaching</h3>
+                        <div className="rounded-xl bg-green-50 p-8 shadow flex flex-col items-center">
+                            <h3 className="text-2xl font-semibold text-green-500 mb-3">Online Coaching</h3>
                             <ul className="space-y-2 text-gray-900 list-disc list-inside text-left">
                                 <li>Personalised training & nutrition plan delivered online</li>
                                 <li>Weekly check-ins and progress tracking</li>
@@ -54,49 +54,49 @@ export default function Services() {
                             </ul>
                         </div>
                     </div>
-                    <div className="rounded-xl border border-gray-200 bg-blue-200 p-8 shadow">
-                        <h3 id="benefits-heading" className="text-2xl font-semibold text-blue-600 mb-4 text-center">
+                    <div className="rounded-xl border border-gray-200 bg-green-50 p-8 shadow">
+                        <h3 id="benefits-heading" className="text-2xl font-semibold text-green-600 mb-4 text-center">
                             Benefits of Online Coaching
                         </h3>
                         <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-900">
                             <li className="flex items-start gap-2">
-                                <span className="mt-1 h-2 w-2 rounded-full bg-blue-600"></span>
+                                <span className="mt-1 h-2 w-2 rounded-full bg-green-600"></span>
                                 Train on your schedule — no fixed session times
                             </li>
                             <li className="flex items-start gap-2">
-                                <span className="mt-1 h-2 w-2 rounded-full bg-blue-600"></span>
+                                <span className="mt-1 h-2 w-2 rounded-full bg-green-600"></span>
                                 More affordable than in-person PT
                             </li>
                             <li className="flex items-start gap-2">
-                                <span className="mt-1 h-2 w-2 rounded-full bg-blue-600"></span>
+                                <span className="mt-1 h-2 w-2 rounded-full bg-green-600"></span>
                                 Flexible for travel, shifts, or training at home
                             </li>
                             <li className="flex items-start gap-2">
-                                <span className="mt-1 h-2 w-2 rounded-full bg-blue-600"></span>
+                                <span className="mt-1 h-2 w-2 rounded-full bg-green-600"></span>
                                 Ongoing support via regular check-ins
                             </li>
                             <li className="flex items-start gap-2">
-                                <span className="mt-1 h-2 w-2 rounded-full bg-blue-600"></span>
+                                <span className="mt-1 h-2 w-2 rounded-full bg-green-600"></span>
                                 Access expert coaching from anywhere
                             </li>
                             <li className="flex items-start gap-2">
-                                <span className="mt-1 h-2 w-2 rounded-full bg-blue-600"></span>
+                                <span className="mt-1 h-2 w-2 rounded-full bg-green-600"></span>
                                 Clear structure with progress tracking & updates
                             </li>
                         </ul>
-                        <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <div className="mt-8 flex flex-col md:flex-row items-center justify-center gap-4">
                             <Link
                                 href="/about"
-                                className="inline-block bg-green-100 text-gray-900 px-8 py-3 rounded-full text-lg font-semibold shadow transition duration-300   hover:bg-blue-300"
+                                className="inline-block bg-gradient-to-br from-green-100 via-green-50 to-green-200 text-green-900 px-6 py-3 rounded-full text-lg font-semibold transition duration-300 hover:bg-green-300 border-2 border-green-300 hover:border-green-500"
                             >
                                 Learn more about me
                             </Link>
-                            <a
+                            <Link
                                 href="#contact"
-                                className="inline-block bg-green-100 text-gray-900 px-8 py-3 rounded-full text-lg font-semibold shadow hover:bg-blue-300 transition  hover:border-blue-400"
+                                className="inline-block bg-green-100 text-green-900 px-6 py-3 rounded-full text-lg font-semibold hover:bg-green-300 transition border-2 border-green-300 hover:border-green-500"
                             >
-                                Book a Free Consultation
-                            </a>
+                                Book Your Free Consultation
+                            </Link>
                         </div>
                     </div>
                 </div>

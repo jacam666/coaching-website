@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-export default function Navbar({ className = "" , buttonColor = "text-yellow-400 hover:text-yellow-300 focus:text-yellow-600"}) {
+export default function Navbar({ className = "" , buttonColor = "text-green-400 hover:text-green-300 focus:text-green-600"}) {
 
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -17,7 +17,7 @@ export default function Navbar({ className = "" , buttonColor = "text-yellow-400
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">
                             <Link href="/" className="flex items-center">
-                                <img src="/jc-logo-yellow.svg" alt="JC Logo" className="h-10 w-10 mr-2" />
+                                <img src="/jc-logo-green.svg" alt="JC Logo" className="h-10 w-10 mr-2" />
                                 <span className="text-gray-900 font-bold text-xl">Coaching</span>
                             </Link>
                         </div>
