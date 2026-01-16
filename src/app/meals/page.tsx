@@ -17,13 +17,13 @@ export default function MealsPage() {
     };
 
     return (
-        <main className="flex flex-col min-h-screen bg-gradient-to-br from-green-400 via-green-300 to-green-500 text-white">
+        <main className="flex flex-col min-h-screen bg-white text-green-900">
             <div className="px-4">
                 <Navbar buttonColor="text-green-500 hover:text-green-300 focus:text-green-600" />
             </div>
             <section className="flex-1 py-10">
                 <div className="max-w-4xl mx-auto px-4 mb-8">
-                    <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-2">
+                    <h2 className="text-3xl md:text-4xl font-bold text-center text-green-600 mb-2">
                         Delicious & Nutritious: Healthy Meals That Break the Boring Mold
                     </h2>
                 </div>
