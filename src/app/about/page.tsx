@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar";
 
 export default function About() {
     return (
-        <main className="flex flex-col min-h-screen bg-green-100 text-white">
+        <main className="flex flex-col min-h-screen bg-white text-green-900">
             {/* Shared nav/header */}
             {/* <Header /> */}
             <div className="px-4">
@@ -40,7 +40,7 @@ export default function About() {
                         </div> */}
                         {/* Intro & achievements */}
                         <div>
-                            <div className=" rounded-xl  p-6 shadow-xl md:shadow-none bg-green-100">
+                            <div className=" rounded-xl  p-6 shadow-xl md:shadow-none ">
                                 <h2 className="text-2xl font-bold text-green-600 mb-2">
                                     My Experience & Achievements
                                 </h2>
@@ -84,7 +84,7 @@ export default function About() {
                     <div className="text-center mt-10">
                         <a
                             href="/contact"
-                            className="inline-block bg-green-100 text-green-900 px-8 py-3 rounded-full text-lg font-semibold hover:bg-green-300 transition border-2 border-green-300 hover:border-green-500"
+                            className="inline-block  text-green-900 px-8 py-3 rounded-full text-lg font-semibold hover:bg-green-300 transition border-2 border-green-300 hover:border-green-500"
                         >
                             Book Your Free Consultation
                         </a>
