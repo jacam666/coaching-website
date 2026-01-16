@@ -15,7 +15,7 @@ export default function ContactPage() {
                     <h2 className="text-4xl font-extrabold text-center mb-2 text-green-600">Let’s Connect!</h2>
                     <p className="text-lg text-center text-green-900 mb-6">Ready to start your fitness journey or have a question? I’d love to hear from you.</p>
 
-                    <form className="bg-green-50 rounded-xl border border-green-700 p-8 shadow max-w-lg mx-auto" onSubmit={(e) => { e.preventDefault(); alert('Form submitted!'); e.currentTarget.reset(); }}>
+                    <form className="bg-green-100 rounded-xl border border-green-700 p-8 shadow max-w-lg mx-auto" onSubmit={(e) => { e.preventDefault(); alert('Form submitted!'); e.currentTarget.reset(); }}>
                         <div className="mb-4">
                             <label htmlFor="name" className="block text-green-800 font-semibold mb-2">Name</label>
                             <input type="text" id="name" name="name" required className="w-full p-2 border border-gray-700 rounded-md bg-green-100 text-green-900 focus:outline-none focus:ring-2 focus:ring-green-700" />
