@@ -95,7 +95,7 @@ export default function Home() {
 
       </section>
       {/* Services Section */}
-      <section className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2  rounded-xl gap-8 py-12 my-8 md:my-0 ">
+      <section className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2  rounded-xl gap-8  my-8 md:my-0 ">
         <div className=" rounded-xl p-8 flex flex-col items-center">
           <img src="/file.svg" alt="Personal Training" className="w-16 h-16 mb-4" />
           <h2 className="text-3xl font-bold text-green-700 mb-2">Online Coaching</h2>
@@ -113,7 +113,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="max-w-2xl text-center py-8  rounded-xl my-8 md:my-0">
+      <section className="max-w-2xl text-center py-8  rounded-xl md:my-0">
         <h3 className="text-3xl font-semibold text-green-700 mb-2">Why Choose Us?</h3>
         <p className="text-green-900 text-lg">
           With years of experience in fitness and nutrition coaching, I provide dedicated support and proven strategies to help you transform your health and confidence. Start your journey today!
