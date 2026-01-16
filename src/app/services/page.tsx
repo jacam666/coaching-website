@@ -5,14 +5,14 @@ import Footer from "../components/Footer";
 
 export default function Services() {
     return (
-        <main className="flex flex-col min-h-screen bg-green-100 text-white">
+        <main className="flex flex-col min-h-screen bg-white text-green-900">
             <div className="px-4">
                 <Navbar />
             </div>
             {/* section for Online Coaching description */}
             <section className="py-10 flex flex-col items-center justify-center gap-8 w-full px-4 max-w-5xl mx-auto">
                 <div className="w-full">
-                    <div className="bg-green-100 rounded-xl p-6 shadow-sm md:shadow-none mb-4">
+                    <div className="bg-white rounded-xl p-6 shadow-sm md:shadow-none mb-4">
                         <h1 id="services-heading" className="text-3xl font-semibold text-green-600 mb-3 text-center">Online Coaching</h1>
                         <div className="text-green-900 text-lg text-center space-y-4">
                             <p>
@@ -34,7 +34,7 @@ export default function Services() {
             <section className="flex-1">
                 <div className="w-full max-w-5xl mx-auto px-4">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
-                        <div className="rounded-xl bg-green-100 p-8 shadow-sm  md:shadow-none flex flex-col items-center">
+                        <div className="rounded-xl bg-white p-8 shadow-sm  md:shadow-none flex flex-col items-center">
                             <h3 className="text-2xl font-semibold text-green-600 mb-3">1-to-1 Personal Training</h3>
                             <ul className="space-y-2 text-green-900 list-disc list-inside text-left">
                                 <li className="flex items-start gap-2">
@@ -55,7 +55,7 @@ export default function Services() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="rounded-xl bg-green-100 p-8 shadow-sm  md:shadow-none flex flex-col items-center">
+                        <div className="rounded-xl bg-white p-8 shadow-sm  md:shadow-none flex flex-col items-center">
                             <h3 className="text-2xl font-semibold text-green-600 mb-3">Online Coaching</h3>
                             <ul className="space-y-2 text-green-900 list-disc list-inside text-left">
                                 <li className="flex items-start gap-2">
@@ -81,7 +81,7 @@ export default function Services() {
             </section>
             <section className="flex flex-col items-center justify-center gap-8 w-full px-4 max-w-5xl mx-auto">
                 <div className="w-full">
-                    <div className="bg-green-100 rounded-xl p-6 shadow-sm md:shadow-none mb-4">
+                    <div className="bg-white rounded-xl p-6 shadow-sm md:shadow-none mb-4">
                         <h3 id="benefits-heading" className="text-2xl font-semibold text-green-600 mb-3 text-center">Benefits of Online Coaching</h3>
                         <div className="text-green-900 text-lg text-center space-y-4">
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -104,13 +104,13 @@ export default function Services() {
                 <div className="mt-8 flex flex-col md:flex-row items-center justify-center gap-4">
                     <Link
                         href="/about"
-                        className="inline-block bg-gradient-to-br from-green-100 via-green-50 to-green-200 text-green-900 px-6 py-3 rounded-full text-lg font-semibold transition duration-300 hover:bg-green-300 border-2 border-green-300 hover:border-green-500"
+                        className="inline-block bg--white text-green-900 px-6 py-3 rounded-full text-lg font-semibold transition duration-300 hover:bg-green-300 border-2 border-green-300 hover:border-green-500"
                     >
                         Learn more about me
                     </Link>
                     <Link
                         href="#contact"
-                        className="inline-block bg-green-100 text-green-900 px-6 py-3 rounded-full text-lg font-semibold hover:bg-green-300 transition border-2 border-green-300 hover:border-green-500"
+                        className="inline-block bg-white text-green-900 px-6 py-3 rounded-full text-lg font-semibold hover:bg-green-300 transition border-2 border-green-300 hover:border-green-500"
                     >
                         Book Your Free Consultation
                     </Link>
