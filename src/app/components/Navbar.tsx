@@ -1,8 +1,18 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
-export default function Navbar({ className = "" , buttonColor = "text-green-400 hover:text-green-300 focus:text-green-600"}) {
+const navLinks = [
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About" },
+    { href: "/services", label: "Services" },
+    { href: "/contact", label: "Contact" },
+    { href: "/meals", label: "Meal Ideas" },
+    { href: "/why-exercise", label: "Why Exercise" },
+];
+
+export default function Navbar({ className = "", buttonColor = "text-green-700 hover:text-green-900 focus:text-green-900" }) {
 
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -11,14 +21,15 @@ export default function Navbar({ className = "" , buttonColor = "text-green-400 
     }
 
     return (
-        <div className="w-full bg-opacity-90 backdrop-blur-md  mt-4">
+        <div className="w-full mt-4 mb-2">
             <nav className={`${className}`}>
-                <div className="max-w-7xl mx-auto  sm:px-6 lg:px-8">
+                <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
+                    <div className="glass-nav px-4 sm:px-6">
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">
                             <Link href="/" className="flex items-center">
-                                <img src="/jc-logo-green.svg" alt="JC Logo" className="h-10 w-10 mr-2" />
-                                <span className="text-green-900 font-bold text-xl">Coaching</span>
+                                <Image src="/jc-logo-green.svg" alt="JC Logo" width={40} height={40} className="h-10 w-10 mr-2" />
+                                <span className="text-green-900 font-bold text-xl tracking-tight">Coaching</span>
                             </Link>
                         </div>
                         <div className="md:hidden">
@@ -43,14 +54,14 @@ export default function Navbar({ className = "" , buttonColor = "text-green-400 
                         </div>
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-4">
-                                <Link href="/" className="text-green-900 hover:text-white">Home</Link>
-                                <Link href="/about" className="text-green-900 hover:text-white">About</Link>
-                                <Link href="/services" className="text-green-900 hover:text-white">Services</Link>
-                                <Link href="/contact" className="text-green-900 hover:text-white">Contact</Link>
-                                <Link href="/meals" className="text-green-900 hover:text-white">Meal Ideas</Link>
-                                <Link href="/why-exercise" className="text-green-900 hover:text-white">Why Exercise</Link>
+                                {navLinks.map((link) => (
+                                    <Link key={link.href} href={link.href} className="text-green-900 hover:text-green-950 hover:bg-green-100 px-3 py-1 rounded-full transition">
+                                        {link.label}
+                                    </Link>
+                                ))}
                             </div>
                         </div>
+                    </div>
                     </div>
 
                 </div>
@@ -58,14 +69,15 @@ export default function Navbar({ className = "" , buttonColor = "text-green-400 
 
             {/* Mobile menu, toggle based on menu state. */}
             {isMobileMenuOpen && (
-                <div className="md:hidden ">
-                    <div className=" pt-2 pb-3 space-y-1 sm:px-3">
-                        <Link href="/" className="text-green-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</Link>
-                        <Link href="/about" className="text-green-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</Link>
-                        <Link href="/services" className="text-green-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Services</Link>
-                        <Link href="/contact" className="text-green-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</Link>
-                        <Link href="/meals" className="text-green-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Meal Ideas</Link>
-                        <Link href="/why-exercise" className="text-green-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Why Exercise</Link>
+                <div className="md:hidden">
+                    <div className="pt-2 pb-3 px-2">
+                        <div className="surface-card p-2 space-y-1">
+                            {navLinks.map((link) => (
+                                <Link key={link.href} href={link.href} className="text-green-900 hover:bg-green-100 block px-3 py-2 rounded-md text-base font-medium transition">
+                                    {link.label}
+                                </Link>
+                            ))}
+                        </div>
                     </div>
                 </div>
             )}

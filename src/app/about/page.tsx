@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 //import Header from "../components/Header";
 import Container from "../components/Container";
 import Footer from "../components/Footer";
@@ -6,24 +7,18 @@ import Navbar from "../components/Navbar";
 
 export default function About() {
     return (
-        <main className="flex flex-col min-h-screen bg-white text-green-900">
+        <main className="flex flex-col min-h-screen text-green-900">
             {/* Shared nav/header */}
             {/* <Header /> */}
             <div className="px-4">
                 <Navbar buttonColor="text-green-400 hover:text-green-300 focus:text-green-600" />
             </div>
-            <section className="flex-1 py-10">
+            <section className="flex-1 py-12">
                 <Container>
-                    {/* <div>
-                        <h1 className="text-5xl font-bold mb-4 text-center">So who am i?</h1>
-                    </div> */}
-                    <div className="flex flex-col  items-center w-full">
-                        {/* <div className="flex items-center gap-4 mb-2">
-                            <img src="/jc-logo.svg" alt="JC Logo" className="w-14 h-14" />
-                            <span className="text-3xl font-bold text-white">Coaching</span>
-                        </div> */}
-                    </div>
-                    <p className="text-xl md:text-2xl text-center text-green-900 mb-6">
+                    <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center text-green-950">
+                        Meet Your Coach
+                    </h1>
+                    <p className="text-xl md:text-2xl text-center text-green-900 mb-8 max-w-3xl mx-auto">
                         I am Jamie Cameron a passionate coach dedicated to helping you achieve your fitness goals.
                     </p>
                     <div className="flex flex-col lg:flex-row w-full items-center justify-center gap-12">
@@ -40,8 +35,8 @@ export default function About() {
                         </div> */}
                         {/* Intro & achievements */}
                         <div>
-                            <div className=" rounded-xl  p-6 shadow-xl md:shadow-none ">
-                                <h2 className="text-2xl font-bold text-green-600 mb-2">
+                            <div className="surface-card p-6 md:p-8">
+                                <h2 className="text-2xl md:text-3xl font-bold text-green-800 mb-3">
                                     My Experience & Achievements
                                 </h2>
                                 <ul className="text-green-900 text-left list-disc list-inside space-y-2">
@@ -62,14 +57,14 @@ export default function About() {
                                     alt="Stage Image"
                                     width={600}
                                     height={400}
-                                    className="w-full h-auto rounded-lg object-cover shadow-lg"
+                                    className="w-full h-auto rounded-lg object-cover shadow-lg border border-green-200"
                                 />
                                 <Image
                                     src="/images/coaching-image-5.jpg"
                                     alt="Bench press competition"
                                     width={600}
                                     height={400}
-                                    className="w-full h-auto rounded-lg object-cover shadow-lg"
+                                    className="w-full h-auto rounded-lg object-cover shadow-lg border border-green-200"
                                 />
                             </div>
                             <Image
@@ -77,17 +72,17 @@ export default function About() {
                                 alt="Coach in gym"
                                 width={600}
                                 height={400}
-                                className="w-full h-auto rounded-lg object-cover shadow-lg"
+                                className="w-full h-auto rounded-lg object-cover shadow-lg border border-green-200"
                             />
                         </div>
                     </section>
                     <div className="text-center mt-10">
-                        <a
+                        <Link
                             href="/contact"
-                            className="inline-block  text-green-900 px-8 py-3 rounded-full text-lg font-semibold hover:bg-green-300 transition border-2 border-green-300 hover:border-green-500"
+                            className="btn-primary inline-block text-lg"
                         >
                             Book Your Free Consultation
-                        </a>
+                        </Link>
                     </div>
                 </Container>
             </section>

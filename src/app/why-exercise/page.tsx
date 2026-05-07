@@ -5,28 +5,27 @@ import Image from 'next/image';
 
 export default function WhyExercise() {
     return (
-        <main className="flex flex-col min-h-screen bg-green-100 text-green-600">
+        <main className="flex flex-col min-h-screen text-green-900">
             <div className="px-4">
                 <Navbar />
             </div>
-            <section className="flex-1 py-10">
-                <div className="w-full md:text-center max-w-5xl mx-auto px-4">
+            <section className="flex-1 py-12">
+                <div className="w-full md:text-center max-w-5xl mx-auto px-4 surface-card py-8 md:py-10">
                     <Image
                         src="/images/why-exercise/good-fitnees.jpg"
                         alt="Benefits of Exercise"
                         width={800}
                         height={400}
-                        className="w-full h-auto rounded-xl mb-6 shadow-lg"
+                        className="w-full h-auto rounded-xl mb-6 shadow-lg border border-green-200"
                     />
 
-                    <h2 className="text-2xl font-bold mb-6">
+                    <h1 className="text-3xl md:text-5xl font-bold mb-4 text-green-950">
                         Why is exercise good for you?
-                    </h2>
-                    <h3 className="text-xl font-bold mb-4">
+                    </h1>
+                    <h3 className="text-xl font-bold mb-4 text-green-800">
                         It prevents many health issues such as:
                     </h3>
-                    <ul className="list-disc list-inside md:w-100 mx-auto text-start space-y-4 text-green-900 ">
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                    <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 list-disc list-inside md:max-w-2xl mx-auto text-start text-green-900">
                             <li>
                                 High blood pressure
                             </li>
@@ -45,21 +44,20 @@ export default function WhyExercise() {
                             <li>
                                 Types of cancer
                             </li>
-                        </div>
                     </ul>
                 </div>
             </section>
-            <div className="px-4 grid grid-cols-1 md:grid-cols-2 gap-2  ">
-                <section className="w-full max-w-5xl mx-auto px-4 bg-blue-100 p-8 rounded-xl ">
+            <div className="px-4 grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto w-full pb-10">
+                <section className="w-full surface-card p-8">
                     <Image
                         src="/images/why-exercise/fitness-1.jpg"
                         alt="Benefits of Exercise"
                         width={800}
                         height={400}
-                        className="w-full h-auto rounded-xl mb-6 shadow-lg"
+                        className="w-full h-auto rounded-xl mb-6 shadow-lg border border-green-200"
                     />
 
-                    <h3 className="text-2xl font-bold mb-4 text-blue-600">Exercise Improves Your Mood</h3>
+                    <h3 className="text-2xl font-bold mb-4 text-green-800">Exercise Improves Your Mood</h3>
 
                     <p className="max-w-5xl mx-auto text-lg lg:text-2xl px-4  text-gray-900">
                         Researchers say there is a strong connection between regular exercise and mood.<br /><br />
@@ -68,16 +66,16 @@ export default function WhyExercise() {
                         Depression can cause many serious problems. It’s best to prevent these obstacles early in life through physical activity.
                     </p>
                 </section>
-                <section className="w-full max-w-5xl mx-auto px-4 bg-green-200 p-8 rounded-xl ">
+                <section className="w-full surface-card p-8">
                     <Image
                         src="/images/why-exercise/fitness-sleep.jpg"
                         alt="Benefits of Exercise"
                         width={800}
                         height={400}
-                        className="w-full h-auto rounded-xl mb-6 shadow-lg"
+                        className="w-full h-auto rounded-xl mb-6 shadow-lg border border-green-200"
                     />
 
-                    <h3 className="text-2xl font-bold mb-4 text-blue-600">Exercise Helps You Sleep Better</h3>
+                    <h3 className="text-2xl font-bold mb-4 text-green-800">Exercise Helps You Sleep Better</h3>
 
                     <p className="max-w-5xl mx-auto text-lg lg:text-2xl px-4  text-gray-900">
                         Regular exercise can help you fall asleep earlier, enjoy deeper sleep, and wake less during the night.<br /><br />
@@ -86,16 +84,16 @@ export default function WhyExercise() {
                         Sleep is essential for a healthy lifestyle, a glowing appearance, and enthusiasm for your daily activities.
                     </p>
                 </section>
-                <section className="w-full max-w-5xl mx-auto px-4 bg-red-100 p-8 rounded-xl">
+                <section className="w-full surface-card p-8">
                     <Image
                         src="/images/why-exercise/fitness-immunity.jpg"
                         alt="Benefits of Exercise"
                         width={800}
                         height={400}
-                        className="w-full h-auto rounded-xl mb-6 shadow-lg"
+                        className="w-full h-auto rounded-xl mb-6 shadow-lg border border-green-200"
                     />
 
-                    <h3 className="text-2xl font-bold mb-4 text-blue-600">Exercise Boosts Your Immune System</h3>
+                    <h3 className="text-2xl font-bold mb-4 text-green-800">Exercise Boosts Your Immune System</h3>
 
                     <p className="max-w-5xl mx-auto text-lg lg:text-2xl px-4  text-gray-900">
                         A strong immune system keeps your body safe from disease.<br /><br />
@@ -104,16 +102,16 @@ export default function WhyExercise() {
                         (A recent study found that colds last 43% longer for people who exercise only once a week.)
                     </p>
                 </section>
-                <section className="w-full max-w-5xl mx-auto px-4 bg-yellow-100 p-8 rounded-xl">
+                <section className="w-full surface-card p-8">
                     <Image
                         src="/images/why-exercise/fitness-thinking.jpg"
                         alt="Benefits of Exercise"
                         width={800}
                         height={400}
-                        className="w-full h-auto rounded-xl mb-6 shadow-lg"
+                        className="w-full h-auto rounded-xl mb-6 shadow-lg border border-green-200"
                     />
 
-                    <h3 className="text-2xl font-bold mb-4 text-blue-600">Exercise Strengthens Your Brain</h3>
+                    <h3 className="text-2xl font-bold mb-4 text-green-800">Exercise Strengthens Your Brain</h3>
 
                     <p className="max-w-5xl mx-auto text-lg lg:text-2xl px-4  text-gray-900">
                         Research shows that lack of exercise makes your brain more prone to serious problems.<br /><br />
@@ -122,16 +120,16 @@ export default function WhyExercise() {
                         With a little effort, you can improve your problem-solving skills.
                     </p>
                 </section>
-                <section className="w-full max-w-5xl mx-auto px-4 bg-orange-100 p-8 rounded-xl">
+                <section className="w-full surface-card p-8">
                     <Image
                         src="/images/why-exercise/fitness-weight.jpg"
                         alt="Benefits of Exercise"
                         width={800}
                         height={400}
-                        className="w-full h-auto rounded-xl mb-6 shadow-lg"
+                        className="w-full h-auto rounded-xl mb-6 shadow-lg border border-green-200"
                     />
 
-                    <h3 className="text-2xl font-bold mb-4 text-blue-600">Exercise Helps Control Your Weight</h3>
+                    <h3 className="text-2xl font-bold mb-4 text-green-800">Exercise Helps Control Your Weight</h3>
 
                     <p className="max-w-5xl mx-auto text-lg lg:text-2xl px-4  text-gray-900">
                         Overweight people are at higher risk for diseases related to excess weight.<br /><br />
@@ -139,16 +137,16 @@ export default function WhyExercise() {
                         Physical fitness is important for people of all ages, especially those who are overweight.
                     </p>
                 </section>
-                <section className="w-full max-w-5xl mx-auto bg-fuchsia-100 px-4 p-8 rounded-xl">
+                <section className="w-full surface-card p-8">
                     <Image
                         src="/images/why-exercise/fitness-fun.jpg"
                         alt="Benefits of Exercise"
                         width={800}
                         height={400}
-                        className="w-full h-auto rounded-xl mb-6 shadow-lg"
+                        className="w-full h-auto rounded-xl mb-6 shadow-lg border border-green-200"
                     />
 
-                    <h3 className="text-2xl font-bold mb-4 text-blue-600">Exercise Makes Life More Fun</h3>
+                    <h3 className="text-2xl font-bold mb-4 text-green-800">Exercise Makes Life More Fun</h3>
 
                     <p className="max-w-5xl mx-auto text-lg lg:text-2xl px-4  text-gray-900">
                         Physical exercise isn’t always hard; it can be enjoyable.<br /><br />

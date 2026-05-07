@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Image from "next/image";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { meals } from "../data/meals";
@@ -33,7 +34,7 @@ export default function MealsPage() {
                             <div className={`absolute inset-0 w-full h-full transition-transform duration-500 ${flippedArr[idx] ? "rotate-y-180" : ""}`} style={{ transformStyle: "preserve-3d" }}>
                                 {/* Front */}
                                 <div className={`absolute inset-0 w-full h-full bg-white rounded-xl border border-green-700 shadow p-4 ${flippedArr[idx] ? "opacity-0" : "opacity-100"}`} style={{ backfaceVisibility: "hidden" }}>
-                                    <img src={meal.image.src} alt={meal.image.alt} className="w-full h-48 object-cover rounded-md mb-4" />
+                                    <Image src={meal.image.src} alt={meal.image.alt} width={500} height={300} className="w-full h-48 object-cover rounded-md mb-4" />
                                     <div className="text-center bg-green-100 p-3 rounded-md overflow-auto">
                                         <h3 className="text-xl text-gray-900 font-semibold">{meal.title}</h3>
                                         <p className="text-md text-gray-900">Calories: {meal.kcal} kcal</p>
