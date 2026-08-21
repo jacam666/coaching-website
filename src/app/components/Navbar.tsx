@@ -12,7 +12,7 @@ const navLinks = [
     { href: "/why-exercise", label: "Why Exercise" },
 ];
 
-export default function Navbar({ className = "", buttonColor = "text-green-700 hover:text-green-900 focus:text-green-900" }) {
+export default function Navbar({ className = "", buttonColor = "text-emerald-100 hover:text-white focus:text-white" }) {
 
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -21,15 +21,15 @@ export default function Navbar({ className = "", buttonColor = "text-green-700 h
     }
 
     return (
-        <div className="w-full mt-4 mb-2">
+        <div className="w-full mt-4 mb-2 relative z-20">
             <nav className={`${className}`}>
                 <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                    <div className="glass-nav px-4 sm:px-6">
+                    <div className="glass-nav px-4 sm:px-6 bg-white/8 border-emerald-100/25 backdrop-blur-xl shadow-[0_10px_35px_-22px_rgba(0,0,0,0.9)]">
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">
                             <Link href="/" className="flex items-center">
                                 <Image src="/jc-logo-green.svg" alt="JC Logo" width={40} height={40} className="h-10 w-10 mr-2" />
-                                <span className="text-green-900 font-bold text-xl tracking-tight">Coaching</span>
+                                <span className="text-emerald-100 font-bold text-xl tracking-tight">Coaching</span>
                             </Link>
                         </div>
                         <div className="md:hidden">
@@ -55,7 +55,7 @@ export default function Navbar({ className = "", buttonColor = "text-green-700 h
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-4">
                                 {navLinks.map((link) => (
-                                    <Link key={link.href} href={link.href} className="text-green-900 hover:text-green-950 hover:bg-green-100 px-3 py-1 rounded-full transition">
+                                    <Link key={link.href} href={link.href} className="text-emerald-100 hover:text-white hover:bg-white/10 px-3 py-1 rounded-full transition">
                                         {link.label}
                                     </Link>
                                 ))}
@@ -71,9 +71,9 @@ export default function Navbar({ className = "", buttonColor = "text-green-700 h
             {isMobileMenuOpen && (
                 <div className="md:hidden">
                     <div className="pt-2 pb-3 px-2">
-                        <div className="surface-card p-2 space-y-1">
+                        <div className="rounded-2xl border border-emerald-100/20 bg-emerald-950/70 p-2 space-y-1 backdrop-blur-xl">
                             {navLinks.map((link) => (
-                                <Link key={link.href} href={link.href} className="text-green-900 hover:bg-green-100 block px-3 py-2 rounded-md text-base font-medium transition">
+                                <Link key={link.href} href={link.href} className="text-emerald-100 hover:text-white hover:bg-white/10 block px-3 py-2 rounded-md text-base font-medium transition">
                                     {link.label}
                                 </Link>
                             ))}
